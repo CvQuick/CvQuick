@@ -1,7 +1,7 @@
 # CvQuick
 A page to create a Curriculum Vitae Quickly!
 Inline-style: 
-![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
+!["PRUEBA"](https://github.com/CvQuick/CvQuick/blob/master/Encabezado.jpg)
 
 
 
