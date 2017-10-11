@@ -184,6 +184,107 @@ En la homepage, justo abajo de las empresas colaboradoras nos encontramos con el
 #### 4	Interacción ####
 Los elementos de interacción comunes entre la homepage y la de creación del CV son los de inicio de sesión, los del pie de la página (licencia, términos y condiciones y contacto) y los de ayuda, consejos, contribuyentes, idiomas y redes sociales. En la home page encontramos el botón/enlace que nos llevará a la página para crear el CV y en ésta nos encontramos con los elementos que nos permiten interactuar con el formulario.
 
+
+### 2.2.4  Análisis de los Principios de Diseño de Gestalt en la página (Apoyar los ejemplos con imágenes y una breve descripción del mismo) ###
+#### 2.2.4.1 Principio de la Semejanza ####
+Nos encontramos con que todos los elementos comunes tienen los mismos estilos: los textos tienen todos la misma tipografía, las cajas de texto el mismo tamaño, los elementos externos al formularios el mismo estilo redondeado, y las secciones del formulario se cierran todos en el mismo tipo de caja, así como el título de cada sección del formulario. Así también vemos como los elementos externos al formulario incluye iconos celestes que los diferencian del formulario, que no tiene iconos.
+#### 2.2.4.2 Principio de la continuidad ####
+Nos encontramos una página que funciona de manera vertical, es decir, haciendo scroll hacia abajo avanzamos por la página. La página se estructura de forma que todos los elementos comunes se encuentran seguidos: en la homepage todos los ejemplos los encontramos bajando hacia la página, las diferentes secciones del formulario las encontramos una debajo de la otra y los idiomas en la parte inferior están todos seguidos.
+#### 2.2.4.3 Principio del cierre ####
+En la homepage podemos ver como la página tiene diferenciada las secciones por colores, siendo la portada celeste, el pie negro y el contenido blanco. En la página del CV la portada y el contenido están diferenciados por un borde y el pie por color, así mismo las secciones del formulario forman un cuadrado sin borde.
+#### 2.2.4.4 Principio de la proximidad #### 
+En la página los elementos comunes están juntos, así como los elementos del formulario están pegados o muy cerca y los ejemplos de CV en la homepage están los unos al lado de los otros.
+#### 2.2.4.5 Principio de Figura y Fondo ####	 	 	
+Encontramos este principio diferenciando el fondo blanco con los elementos de forma que estos están todos marcados por un fondo de color o bien por una “burbuja” o “cápsula”. No hay elementos incrustados sin diferenciación en el fondo más que los de inicio de sesión y las aclaraciones en el formulario con un asterisco (*).
+#### 2.2.4.6 Principio de simetría y orden ####
+Encontramos los elementos de la página diferenciados por unos claros elementos rectangulares. Los elementos que pertenecen al formulario se encuentran todos dentro de un gran cuadrado, los del pie en otro y la cabeza en otro más. Hace fácil el uso de la página pero no la hace demasiado bonita.
+#### 2.2.4.7 Principios de Simplicidad ####
+Es uno de los principios que mejor aborda la web. La página nos muestra nada más abrirla una pequeña descripción, un ejemplo y un enlace a la utilidad de la página. Cuando damos al enlace, se nos abre el formulario a partir del cual ejerceremos la utilidad de la misma. No aborda al usuario de información añadida o complica la usabilidad de la página, si no que accedemos rápidamente la utilidad de la misma.
+#### 2.2.4.8 Principio de la Experiencia ####
+La página nos aporta una experiencia óptima en cuanto a lo que el usuario espera usar cuando entra. Es fácil de usar y es muy adaptable: podemos dejar en blanco ciertos elementos y añadir más, si bien es cierto que una vez haber hecho uso de la página tenemos pocas opciones a elegir incluso siendo un miembro premium (de pago) de la página. 
+
+
+### 2.2.5 Análisis de los Principios de Usabilidad de Jakob Nielsen en la página (Apoyar los ejemplos con imágenes y una breve descripción del mismo). Destacar la carencia de alguno de ellos. ###
+
+#### Visibilidad del sistema ####
+Correcto. La página muestra retroalimentación en todo momento.
+
+#### Relación entre el sistema y el mundo real ####
+Correcto. Muestra iconos y etiquetas descriptivos.
+
+
+#### Consistencia y estándares ####
+Correcto. La web muestra iconos descriptivos 
+
+
+#### Control y libertad del usuario ####
+Incorrecto. No guarda los cambios si pulsas para redirigir a la principal. 
+
+#### Prevención de errores. ####
+Incorrecto. No guarda los cambios si pulsas para  redirigir a la principal.
+
+#### Reconocimiento antes que recuerdo ####
+Incorrecto. Cada campo muestra la información necesaria pero todos son iguales.
+
+#### Flexibilidad y eficiencia de uso ####
+Incorrecto. La web se comporta igual para usuarios  expertos que para novatos.
+
+#### Estética y diseño minimalista ####
+Correcto. La página es intuitiva y fácil de usar.
+
+#### Ayudar a los usuarios Correcto. ####
+Aunque hay ayuda no se encuentra intuitivamente en la página principal, sin embargo en el formulario sí da acceso rápido e intuitivo a la ayuda..
+
+#### Ayuda y documentación. ####
+Incorrecto. No se muestra intuitivamente la ayuda.
+
+
+### 2.2.6 Estudio con pruebas en distintos dispositivos de la adaptabilidad de la página web. ###
+#### Monitor estándar ( 1920x1080 ). ####
+La interfaz se muestra correctamente y se hace cómoda.Está optimizada para está resolución.
+	
+	
+	
+#### Monitor Ultrawide ( 2560 x 1080 ). ####
+La interfaz se muestra correctamente parcialmente. No está optimizada para está resolución. 
+
+
+
+#### Smartphone ( 1920 x 1080 ) ####
+La interfaz se muestra igual que en escritorio, lo que significa que no tiene una versión móvil, aunque es usable no resulta cómoda. No está optimizada para smartphones.
+
+
+
+### 2.2.7  Colores de la página: ###
+#### Página de bienvenida ####
+Color principal rgb(0, 199, 223) Azul
+Color secundario rgb(255, 255, 255) Blanco
+Color acento rgb(0, 0, 0) Negro
+Cumple con la regla 60 30 10
+
+#### Página de formulario ####
+Color principal rgb(249, 249,249) Azul
+Color secundario rgb(255, 255, 255) Blanco
+Color acento rgb(255, 148, 181) Amarillo
+Cumple con la regla 60 30 10
+
+#### ¿Qué efecto tienen en los usuarios los colores? ####
+Azul: Confianza , seguridad.
+Blanco: Pureza , limpieza.
+Negro: Elegancia , simpleza.
+Amarillo: Energia , armonia.
+
+
+
+
+
+
+
+
+
+
+
+
 ## 2.3 Opinión personal. (Opinión personal de cada uno de los integrantes del grupo sobre, las razones por las que han elegido dichas página, páginas o plantillas).
 
 
