@@ -1,7 +1,7 @@
 # CvQuick
 A page to create a Curriculum Vitae Quickly!
-Inline-style: 
-!["PRUEBA"](https://github.com/CvQuick/CvQuick/blob/master/Encabezado.jpg)
+
+
 
 
 
@@ -82,49 +82,56 @@ Número de hijos: indiferente
 #### 1 Encabezado
 ##### 	 1.1 Principalmente elementos identificativos:
 ###### 	- Logo: 
-- arriba a la izquierda encontramos el logo, diferente al que podemos encontrar en la página principal: mientras que el de la homepage tiene tipografía blanca, este tiene la tipografía en negro.
+- Arriba a la izquierda encontramos el logo, diferente al que podemos encontrar en la página principal: mientras que el de la homepage tiene tipografía blanca, este tiene la tipografía en negro.
 
 ###### - Título de la empresa: 
 
-- el título de la empresa no aparece por ningún lado, pero podemos dar por hecho que el logo de la empresa es el título de la misma.
+- El título de la empresa no aparece por ningún lado, pero podemos dar por hecho que el logo de la empresa es el título de la misma.
 
 ###### - Logos de empresas relacionadas:
--  en la homepage, están debajo de la portada justo arriba del contenido de la portada.
+- En la homepage, están debajo de la portada justo arriba del contenido de la portada.
 
+!["Encabezado"](https://github.com/CvQuick/CvQuick/blob/master/Encabezado.jpg)
 
 ##### 1.2. Imágenes o botones para cambiar de idioma: 
 
-- el elemento para cambiar de idioma se encuentra arriba a la derecha, justo a la izquierda de los elementos de login y creación de cuenta. Al pulsarlo se nos abre un menú de selección con muchos idiomas y al seleccionar cualquiera de ellos se nos abre una nueva página ya con con todos los elementos cambiados
+- El elemento para cambiar de idioma se encuentra arriba a la derecha, justo a la izquierda de los elementos de login y creación de cuenta. Al pulsarlo se nos abre un menú de selección con muchos idiomas y al seleccionar cualquiera de ellos se nos abre una nueva página ya con con todos los elementos cambiados
+!["Cambiar idioma"](https://github.com/CvQuick/CvQuick/blob/master/Cambiar%20idioma.jpg)
 
 ##### 1.3.   Elementos para acceder a las redes sociales: 
 
-no se encuentran en el header, si no en el footer
-	
+No se encuentran en el header, si no en el footer
+!["Redes Sociales"](https://github.com/CvQuick/CvQuick/blob/master/Redes%20sociales.jpg)
+
 ##### 1.4.   Buscador: 
 
-la página no contiene buscador
+La página no contiene buscador
 
 ### 2.       Menú
 
 #### 2.1. Los elementos de navegación: 
 
-- no contiene elementos de navegación
+- No contiene elementos de navegación
 
 ### 3. Contenido
 #### 3.1.   Los elementos de información:
 ##### 3.1.1.Párrafos: 
-- se han usado para crear cajas de texto en los cuales nosotros podamos rellenar y para notificar los valores obligatorios que hay que rellenar
+- Se han usado para crear cajas de texto en los cuales nosotros podamos rellenar y para notificar los valores obligatorios que hay que rellenar
+
+!["Párrafos"](https://github.com/CvQuick/CvQuick/blob/master/Parrafos.jpg)
 
 #### 3.1.2.Imágenes: 
 
-- las imágenes están colocadas solo en la homepage como muestras de cómo quedaría nuestro CV una vez rellenado el formulario. En la página del formulario no hay imágenes más que una para hacernos miembro premium.
+- Las imágenes están colocadas solo en la homepage como muestras de cómo quedaría nuestro CV una vez rellenado el formulario. En la página del formulario no hay imágenes más que una para hacernos miembro premium.
+
+!["Imagenes"](https://github.com/CvQuick/CvQuick/blob/master/Imagenes.jpg)
 
 #### 3.1.3.Formularios:
--  encontramos un formulario de varias partes, con cajas de texto, inputs de tipo text, button y un submit para cuando lo hayamos terminado.
+-  Encontramos un formulario de varias partes, con cajas de texto, inputs de tipo text, button y un submit para cuando lo hayamos terminado.
 
 #### 3.2.   Debe ser la parte más grande: 
 
-- lo es.
+- Lo es.
 
  
 #### 3.3.   Facilitamos al usuario a leer la información: 
@@ -155,7 +162,9 @@ la página no contiene buscador
 
 #### 4.6.   Facilitamos al usuario a leer la información: 
 
-- tiene un enlace de ayuda que explica la página web y cómo usarla. 
+- Tiene un enlace de ayuda que explica la página web y cómo usarla. 
+
+!["Pie"](https://github.com/CvQuick/CvQuick/blob/master/Pie.jpg)
 
 ### 2.3. Opinión personal. (Opinión personal de cada uno de los integrantes del grupo sobre, las razones por las que han elegido dichas página, páginas o plantillas).
 
