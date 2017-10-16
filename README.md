@@ -300,3 +300,148 @@ Amarillo: Energia , armonia.
 
 ### 3.1  Nombre del Equipo: 
 - CvQuick
+
+
+### 3.2 Logo
+
+### 3.3 
+
+ El tema principal de la página va dirigida a aquellas personas que quieran hacerse el currículum de formas sencilla y fácil. Dando un acabado profesional a manos de cualquier usuario con conexión a internet.
+
+### 3.4  Modelado de usuario:
+
+- Edad: Entre 16 - 60 años.
+- Sexo: Indiferente.
+- Ocupacion: Desempleado.
+- Estado civil: Indiferente.
+- Número de hijos: Indiferente.
+- Conocimientos informáticos: Bajo.
+	
+
+### 3.5 Boceto de la ubicación de cada una de las partes principales de la interfaz
+
+
+
+
+### 3.6 Principios de diseño que vamos a aplicar
+
+- Principio de semejanza
+- Principio de continuidad
+- Principio de cierre
+- Principio de proximidad
+- Principio de simetría y orden
+- Principio de simplicidad 
+- Principio de experiencia
+
+
+
+### 3.7.Principales principios de Diseño de Usabilidad en los que nos centraremos. (Aunque deben cumplirse todos, quiero que destaquéis cuáles son los 4 que consideréis de mayor importancia).
+
+- Prevención de errores 
+- Relación entre el sistema y el mundo real
+- Consistencia y Estándares
+- Estética y diseño minimalista					 							
+### 3.8.  Colores. 
+
+Hemos decidido que los colores los cuales vamos a utilizar para nuestra página web serán celeste,blanco,negro y gris. Ya que transmiten seriedad y contraste entre el fondo y los elementos, siendo así más visible para el usuario .
+				
+
+
+### 3.9.  Tipos de iconos a usar.
+					
+- Iconos redes sociales 
+- Iconos opciones de menú
+- Iconos de modo editor
+						 							
+### 3.10.  Imágenes a usar.
+
+- Ejemplos de curriculums con distintas plantillas
+- Usuarias tristes usando nuestra WEB
+- Ejemplo del modo editor del curriculum  vitae
+- Imagen de introduccion a la página
+
+
+### 3.10.  Imágenes a usar.
+- Ejemplos de curriculums con distintas plantillas
+- Usuarios alegres usando nuestra WEB
+- Ejemplo del modo editor del curriculum  vitae
+- Imagen de introduccion a la página
+						
+				
+
+### 3.11.  Tipografía.
+
+- La tipografía elegida es la Raleway ya que es de la familia Sans-Serif  lo cual facilita la lectura (Raleway) 
+						 							
+### 3.12.  Tipo de maquetación y tecnologías a usar.
+
+##### Tecnologías a usar
+
+- BootStrap 4
+- Css 3
+- Html 5
+- Javascript ECMA 6
+- Php 7.1.5
+
+##### Tipo de maquetación:
+
+- Divs y capas
+				 							
+### 3.13.  Patrones de diseño que consideráis incluir (opcional, 4 es suficiente).
+
+- Patrón de ancho fijo
+- Patrón de diseño web liquido
+- Patrón de diseño web híbrido
+- Patrón de diseño web para móviles
+						
+						 							
+### 3.14.  Webmaster-guidelines de google que vamos a aplicar (opcional, 4 es suficiente).
+						
+- Redireccionamientos engañosos 
+- Texto o enlaces ocultos 
+- Creación de páginas con comportamiento malicioso, como páginas que suplanten la identidad o instalen virus, troyanos u otro software malicioso
+- Relleno de las páginas con palabras irrelevantes.			 										
+						 							
+### 4.1.  Reparto de tareas
+
+- 1 Equipo completo.
+-  2
+-  2.1 Equipo completo.
+-  2.2
+- 2.2.1 hasta  2.2.4 Juanlu
+- 2.2.5 hasta  2.2.7 Jose
+- 2.2.8 hasta 2.2.10 Sergio
+- 2.2.11 hasta 2.2.13 Josan
+- 2.3 hasta 5 equipoº1q	 completo.
+- 3 Equipo completo.
+- 4 Equipo completo.
+- 5 Equipo completo.
+						
+						 							
+### 4.2.  Tecnologías usadas para el trabajo en equipo.
+	
+Discord Para el intercambio de información
+Slack  Para el intercambio de archivos.
+Drive Para la edición del proyecto en línea.
+Whatsapp para acordar las reuniones.
+Toggl Para administrar el tiempo.
+GitHub y Markdown Para el despliegue, desarrollo y compartimentación del proyecto.
+
+### 4.3.  Actas sobre las reuniones realizadas.
+
+ - 04 / 10 / 2017 Equipo completo.
+Se realizan los puntos del 1 hasta el 3.
+
+ - 09 / 10 / 2017 	Equipo completo.
+Equipo completo.
+Se realizan los puntos del 3 hasta el 5.
+
+ - 10 / 10 / 2017 	Equipo completo.
+Se realizan algunos retoques.				
+						 							
+### 4.4.  Informes semanales del Toggle (Puede usarse otra herramienta para gestionar el tiempo)
+
+# 5.Conclusiones: 
+
+En el trabajo en grupo hemos aprendido la metodología, los pasos que hay que seguir para crear una página web. El análisis profundo de una o varias webs de temática similar nos ayudan a ver las ventajas y las mejoras que debemos incorporar a la web que vayamos a crear. 
+En cuanto al trabajo en equipo, la experiencia por parte de todos los participantes ha sido muy gratificante. Todos hemos trabajado por igual y todos hemos cumplido con los objetivos que nos autoimpusimos en el tiempo acordado e incluso nos hemos ayudado en los objetivos de los demás. 
