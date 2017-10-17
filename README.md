@@ -25,7 +25,7 @@ https://cvmkr.com
 
 #### 2.1.3 Logo principal ####
 
- 
+
 
 #### 2.1.4 Tema principal de la página. ####
 Página dedicada a la creación sencilla de un CV con distintas plantillas elegidas por el usuario.
@@ -274,16 +274,63 @@ Blanco: Pureza , limpieza.
 Negro: Elegancia , simpleza.
 Amarillo: Energia , armonia.
 
+---
 
+### 2.2.8. Tipos de imágenes que predominan en la aplicación (incluir ejemplos de imágenes):###
+#### La principal ####
+Nada más entrar en la página nos encontramos una pantalla por la cual se van pasando las imágenes.En total 3 mostradas a continuación :
+!["imagenesprincipales1"](https://github.com/CvQuick/CvQuick/blob/master/1.png)
+!["imagenesprincipales2"](https://github.com/CvQuick/CvQuick/blob/master/2.png)
+!["imagenesprincipales3"](https://github.com/CvQuick/CvQuick/blob/master/3.png)
 
+#### La Central ####
+Muestra las marcas patrocinadas por la empresa.
+!["Marcasempresas"](https://github.com/CvQuick/CvQuick/blob/master/empresas.png)
 
+#### Final de pagina ####
+Nos enseña plantillas del curriculum una vez terminadas como ejemplo.Hay diversas para elegir al gusto del usuario.
 
+#### También nos encontramos iconos sueltos proporcionandonos información de lo que se refiere :####
+ - Twitter  (Seguir al creador o hacer tweet promocionando)
+ - Facebook (Dar like)
+ - linkedin (Número de Recomendaciones)
+ - Google chrome (Disponible en la Tienda web de Chrome)
+ - Candado Seguridad (Encriptación de seguridad SSL de 256 bit)
 
+### 2.2.9 Información de las licencias de los scripts, css o imágenes de la aplicación( opcional)###
 
+ - Imágenes . Todas las imágenes de la aplicación han sido encontrados gratuitamente en diferentes páginas de internet. Incluso en el propio buscador de google imágenes para ser usadas ,aparte de no llevar una marca de agua para ser identificada como privada y usada exclusivamente por tu creador.
 
+ - Css y scripts. El css encontrado muestra las licencias únicamente de todos los font utilizados en la página y de toda la pagina entera.Sin dar a entender si ha sido obtenida o creada por el diseñador de la página.
 
+ - Otras licencias encontradas. Encontradas entre muchas otras la de digital ocean,mailgun,rapid ssl,geotrust ssl ,nginx.
+ 
+### 2.2.10 La tipografía de la página web se divide en : ### 
 
+ - Open Sans. Utilizado para el nombre de la página y todo lo que está en la pantalla principal nada más entrar,incluido el formulario del curriculum
 
+ - Helvetica Neue. Antes del apartado de muestra de las imágenes del curriculum.
+
+ - Helvetica. Se utiliza en el apartado de idiomas de la página .
+
+ - Arial. Está presente en las opciones de iniciar sesion/registrarse como en los apartados algo menos visibles como al final y al principio.(contacto,terminos y politicas de privacidad,enlaces externos ) 
+
+---
+### 2.2.11 Tipo de maquetación de la web y tecnologías utilizadas para ello:
+- Maquetación mediante Capas o Div: Mediante etiquetas que permiten la anidación de elementos y su posicionamiento a través de las hojas de estilo CSS. Editando su ubicación en la pantalla mediante coordenadas cartesianas.
+
+### 2.2.12 Patrones de diseño que encontramos en la Web:
+- Navegación: Menú accesible.
+- Recoger información y orientar al usuario: Información básica de registro.
+- Mostrar y organizar contenido: Todo organizado en la misma página.
+
+### 2.2.13 . Posicionamiento: Encontrar si se cumple alguna de las condiciones de las webmaster-guidelines de google:
+- No engaña a los usuarios.
+- No recurre a trucos para que el motor de búsqueda mejore la clasificación del sitio. 
+- No hay texto ni enlaces ocultos
+- No hay contenido copiado.
+
+---
 
 ## 2.3 Opinión personal. (Opinión personal de cada uno de los integrantes del grupo sobre, las razones por las que han elegido dichas página, páginas o plantillas).
 
