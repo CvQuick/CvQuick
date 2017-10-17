@@ -24,7 +24,7 @@ Cvmaker
 https://cvmkr.com 
 
 #### 2.1.3 Logo principal ####
-
+!["logopagina"](https://github.com/CvQuick/CvQuick/blob/master/cvmakerlogo.jpg)
 
 
 #### 2.1.4 Tema principal de la página. ####
@@ -351,6 +351,8 @@ Nos enseña plantillas del curriculum una vez terminadas como ejemplo.Hay divers
 
 ### 3.2 Logo
 
+!["logopaginapersonal"](https://github.com/CvQuick/CvQuick/blob/master/logo.png)
+
 ### 3.3 
 
  El tema principal de la página va dirigida a aquellas personas que quieran hacerse el currículum de formas sencilla y fácil. Dando un acabado profesional a manos de cualquier usuario con conexión a internet.
@@ -367,7 +369,11 @@ Nos enseña plantillas del curriculum una vez terminadas como ejemplo.Hay divers
 
 ### 3.5 Boceto de la ubicación de cada una de las partes principales de la interfaz
 
+!["boceto1"](https://github.com/CvQuick/CvQuick/blob/master/bocetoPerfil.jpg)
 
+!["boceto2"](https://github.com/CvQuick/CvQuick/blob/master/bocetoEducacion.jpg)
+
+!["boceto3"](https://github.com/CvQuick/CvQuick/blob/master/bocetoCapacidades.jpg)
 
 
 ### 3.6 Principios de diseño que vamos a aplicar
