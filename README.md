@@ -289,7 +289,7 @@ Muestra las marcas patrocinadas por la empresa.
 
 #### Final de pagina ####
 Nos enseña plantillas del curriculum una vez terminadas como ejemplo.Hay diversas para elegir al gusto del usuario.
-!["finalpaginafoto"](https://github.com/CvQuick/CvQuick/blob/master/ejemplos curriculums.png)
+!["finalpaginafoto"](https://github.com/CvQuick/CvQuick/blob/master/Cont1.png)
 
 #### También nos encontramos iconos sueltos proporcionandonos información de lo que se refiere :####
  - Twitter  (Seguir al creador o hacer tweet promocionando)
