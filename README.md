@@ -297,6 +297,7 @@ Nos enseña plantillas del curriculum una vez terminadas como ejemplo.Hay divers
  - linkedin (Número de Recomendaciones)
  - Google chrome (Disponible en la Tienda web de Chrome)
  - Candado Seguridad (Encriptación de seguridad SSL de 256 bit)
+!["logospaginaweb"](https://github.com/CvQuick/CvQuick/blob/master/iconospagina.jpg)
 
 ### 2.2.9 Información de las licencias de los scripts, css o imágenes de la aplicación( opcional)###
 
