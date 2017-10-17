@@ -292,7 +292,7 @@ Nos enseña plantillas del curriculum una vez terminadas como ejemplo.Hay divers
 !["finalpaginafoto"](https://github.com/CvQuick/CvQuick/blob/master/Cont1.png)
 
 #### También nos encontramos iconos sueltos proporcionandonos información de lo que se refiere :####
- - Twitter  (Seguir al creador o hacer tweet promocionando)
+ [logo]: !["iconotwitter"](https://github.com/CvQuick/CvQuick/blob/master/twittericon.png) - Twitter  (Seguir al creador o hacer tweet promocionando)
  - Facebook (Dar like)
  - linkedin (Número de Recomendaciones)
  - Google chrome (Disponible en la Tienda web de Chrome)
