@@ -356,7 +356,7 @@ Nos enseña plantillas del curriculum una vez terminadas como ejemplo.Hay divers
 
 !["logopaginapersonal"](https://github.com/CvQuick/CvQuick/blob/master/logo.png)
 
-### 3.3 
+### 3.3 Tema Principal 
 
  El tema principal de la página va dirigida a aquellas personas que quieran hacerse el currículum de formas sencilla y fácil. Dando un acabado profesional a manos de cualquier usuario con conexión a internet.
 
@@ -415,15 +415,6 @@ Hemos decidido que los colores los cuales vamos a utilizar para nuestra página 
 - Usuarias tristes usando nuestra WEB
 - Ejemplo del modo editor del curriculum  vitae
 - Imagen de introduccion a la página
-
-
-### 3.10.  Imágenes a usar.
-- Ejemplos de curriculums con distintas plantillas
-- Usuarios alegres usando nuestra WEB
-- Ejemplo del modo editor del curriculum  vitae
-- Imagen de introduccion a la página
-						
-				
 
 ### 3.11.  Tipografía.
 
