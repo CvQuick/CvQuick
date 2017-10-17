@@ -276,7 +276,7 @@ Amarillo: Energia , armonia.
 
 ---
 
-### 2.2.8. Tipos de imágenes que predominan en la aplicación (incluir ejemplos de imágenes):###
+### 2.2.8. Tipos de imágenes que predominan en la aplicación (incluir ejemplos de imágenes):
 #### La principal ####
 Nada más entrar en la página nos encontramos una pantalla por la cual se van pasando las imágenes.En total 3 mostradas a continuación :
 !["imagenesprincipales1"](https://github.com/CvQuick/CvQuick/blob/master/1.png)
@@ -291,7 +291,7 @@ Muestra las marcas patrocinadas por la empresa.
 Nos enseña plantillas del curriculum una vez terminadas como ejemplo.Hay diversas para elegir al gusto del usuario.
 !["finalpaginafoto"](https://github.com/CvQuick/CvQuick/blob/master/Cont1.png)
 
-#### También nos encontramos iconos sueltos proporcionandonos información de lo que se refiere :####
+#### También nos encontramos iconos sueltos proporcionandonos información de lo que se refiere :
  - Twitter  (Seguir al creador o hacer tweet promocionando)
  - Facebook (Dar like)
  - linkedin (Número de Recomendaciones)
@@ -300,7 +300,7 @@ Nos enseña plantillas del curriculum una vez terminadas como ejemplo.Hay divers
  
 !["logospaginaweb"](https://github.com/CvQuick/CvQuick/blob/master/iconospagina.jpg)
 
-### 2.2.9 Información de las licencias de los scripts, css o imágenes de la aplicación( opcional)###
+### 2.2.9 Información de las licencias de los scripts, css o imágenes de la aplicación( opcional)
 
  - Imágenes . Todas las imágenes de la aplicación han sido encontrados gratuitamente en diferentes páginas de internet. Incluso en el propio buscador de google imágenes para ser usadas ,aparte de no llevar una marca de agua para ser identificada como privada y usada exclusivamente por tu creador.
 
@@ -308,7 +308,7 @@ Nos enseña plantillas del curriculum una vez terminadas como ejemplo.Hay divers
 
  - Otras licencias encontradas. Encontradas entre muchas otras la de digital ocean,mailgun,rapid ssl,geotrust ssl ,nginx.
  
-### 2.2.10 La tipografía de la página web se divide en : ### 
+### 2.2.10 La tipografía de la página web se divide en : 
 
  - Open Sans. Utilizado para el nombre de la página y todo lo que está en la pantalla principal nada más entrar,incluido el formulario del curriculum
 
