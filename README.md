@@ -24,7 +24,7 @@ Cvmaker
 https://cvmkr.com 
 
 #### 2.1.3 Logo principal ####
-!["logopagina"](https://github.com/CvQuick/CvQuick/blob/master/cvmakerlogo.jpg)
+!["logopagina"](https://github.com/CvQuick/CvQuick/blob/master/images/cvmakerlogo.jpg)
 
 
 #### 2.1.4 Tema principal de la página. ####
@@ -91,17 +91,17 @@ Número de hijos: indiferente
 ###### - Logos de empresas relacionadas: ######
 - En la homepage, están debajo de la portada justo arriba del contenido de la portada.
 
-!["Encabezado"](https://github.com/CvQuick/CvQuick/blob/master/Encabezado.jpg)
+!["Encabezado"](https://github.com/CvQuick/CvQuick/blob/master/images/Encabezado.jpg)
 
 ##### 1.2 Imágenes o botones para cambiar de idioma: #####
 
 - El elemento para cambiar de idioma se encuentra arriba a la derecha, justo a la izquierda de los elementos de login y creación de cuenta. Al pulsarlo se nos abre un menú de selección con muchos idiomas y al seleccionar cualquiera de ellos se nos abre una nueva página ya con con todos los elementos cambiados
-!["Cambiar idioma"](https://github.com/CvQuick/CvQuick/blob/master/Cambiar%20idioma.jpg)
+!["Cambiar idioma"](https://github.com/CvQuick/CvQuick/blob/master/images/Cambiar%20idioma.jpg)
 
 ##### 1.3 Elementos para acceder a las redes sociales: #####
 
 No se encuentran en el header, si no en el footer
-!["Redes Sociales"](https://github.com/CvQuick/CvQuick/blob/master/Redes%20sociales.jpg)
+!["Redes Sociales"](https://github.com/CvQuick/CvQuick/blob/master/images/Redes%20sociales.jpg)
 
 ##### 1.4 Buscador: #####
 
@@ -118,13 +118,13 @@ La página no contiene buscador
 ###### 3.1.1	Párrafos: 
 - Se han usado para crear cajas de texto en los cuales nosotros podamos rellenar y para notificar los valores obligatorios que hay que rellenar
 
-!["Párrafos"](https://github.com/CvQuick/CvQuick/blob/master/Parrafos.jpg)
+!["Párrafos"](https://github.com/CvQuick/CvQuick/blob/master/images/Parrafos.jpg)
 
 ###### 3.1.2	Imágenes: 
 
 - Las imágenes están colocadas solo en la homepage como muestras de cómo quedaría nuestro CV una vez rellenado el formulario. En la página del formulario no hay imágenes más que una para hacernos miembro premium.
 
-!["Imagenes"](https://github.com/CvQuick/CvQuick/blob/master/Imagenes.jpg)
+!["Imagenes"](https://github.com/CvQuick/CvQuick/blob/master/images/Imagenes.jpg)
 
 ###### 3.1.3	Formularios:
 -  Encontramos un formulario de varias partes, con cajas de texto, inputs de tipo text, button y un submit para cuando lo hayamos terminado.
@@ -164,13 +164,13 @@ La página no contiene buscador
 
 - Tiene un enlace de ayuda que explica la página web y cómo usarla. 
 
-!["Pie"](https://github.com/CvQuick/CvQuick/blob/master/Pie.jpg)
+!["Pie"](https://github.com/CvQuick/CvQuick/blob/master/images/Pie.jpg)
 
 ### 2.2.2	Indicar y detallar algunos de los elementos principales de la Interfaz Web (Incluir imágenes): ###
 #### 1	Identificación ####
 En la homepage lo primero que nos encontramos al abrir la página, siendo el logo de la empresa y la función de la página lo primero que vemos. La función de la página es explicada mediante “paneles rotativos” y ocupa gran parte de la pantalla. Así como debajo nos encontramos con las empresas colaboradoras de la página. En la página para crear el currículum nos encontramos con la única identificación del logo en la parte superior.
 
-!["Identificacion"](https://github.com/CvQuick/CvQuick/blob/master/identificacion.png)
+!["Identificacion"](https://github.com/CvQuick/CvQuick/blob/master/images/identificacion.png)
 
 #### 2	Navegación ####
 No tiene.
@@ -178,8 +178,8 @@ No tiene.
 #### 3	Contenidos ####
 En la homepage, justo abajo de las empresas colaboradoras nos encontramos con el contenido, cual está compuesto principalmente por imágenes lo que sería después nuestro posible curriculum. En la página para crear curriculums nos encontramos con el contenido más grande y predominante en la página, que es el cual nos permitirá introducir los datos al CV para posteriormente darle estilos.
 
-!["Contenido 1"](https://github.com/CvQuick/CvQuick/blob/master/Cont1.png)
-!["Contenido 2"](https://github.com/CvQuick/CvQuick/blob/master/Cont2.png)
+!["Contenido 1"](https://github.com/CvQuick/CvQuick/blob/master/images/Cont1.png)
+!["Contenido 2"](https://github.com/CvQuick/CvQuick/blob/master/images/Cont2.png)
 
 #### 4	Interacción ####
 Los elementos de interacción comunes entre la homepage y la de creación del CV son los de inicio de sesión, los del pie de la página (licencia, términos y condiciones y contacto) y los de ayuda, consejos, contribuyentes, idiomas y redes sociales. En la home page encontramos el botón/enlace que nos llevará a la página para crear el CV y en ésta nos encontramos con los elementos que nos permiten interactuar con el formulario.
@@ -279,17 +279,17 @@ Amarillo: Energia , armonia.
 ### 2.2.8. Tipos de imágenes que predominan en la aplicación (incluir ejemplos de imágenes):
 #### La principal ####
 Nada más entrar en la página nos encontramos una pantalla por la cual se van pasando las imágenes.En total 3 mostradas a continuación :
-!["imagenesprincipales1"](https://github.com/CvQuick/CvQuick/blob/master/1.png)
-!["imagenesprincipales2"](https://github.com/CvQuick/CvQuick/blob/master/2.png)
-!["imagenesprincipales3"](https://github.com/CvQuick/CvQuick/blob/master/3.png)
+!["imagenesprincipales1"](https://github.com/CvQuick/CvQuick/blob/master/images/1.png)
+!["imagenesprincipales2"](https://github.com/CvQuick/CvQuick/blob/master/images/2.png)
+!["imagenesprincipales3"](https://github.com/CvQuick/CvQuick/blob/master/images/3.png)
 
 #### La Central ####
 Muestra las marcas patrocinadas por la empresa.
-!["Marcasempresas"](https://github.com/CvQuick/CvQuick/blob/master/empresas.png)
+!["Marcasempresas"](https://github.com/CvQuick/CvQuick/blob/master/images/empresas.png)
 
 #### Final de pagina ####
 Nos enseña plantillas del curriculum una vez terminadas como ejemplo.Hay diversas para elegir al gusto del usuario.
-!["finalpaginafoto"](https://github.com/CvQuick/CvQuick/blob/master/Cont1.png)
+!["finalpaginafoto"](https://github.com/CvQuick/CvQuick/blob/master/images/Cont1.png)
 
 #### También nos encontramos iconos sueltos proporcionandonos información de lo que se refiere :
  - Twitter  (Seguir al creador o hacer tweet promocionando)
@@ -298,7 +298,7 @@ Nos enseña plantillas del curriculum una vez terminadas como ejemplo.Hay divers
  - Google chrome (Disponible en la Tienda web de Chrome)
  - Candado Seguridad (Encriptación de seguridad SSL de 256 bit)                              
  
-!["logospaginaweb"](https://github.com/CvQuick/CvQuick/blob/master/iconospagina.jpg)
+!["logospaginaweb"](https://github.com/CvQuick/CvQuick/blob/master/images/iconospagina.jpg)
 
 ### 2.2.9 Información de las licencias de los scripts, css o imágenes de la aplicación( opcional)
 
@@ -354,7 +354,7 @@ Nos enseña plantillas del curriculum una vez terminadas como ejemplo.Hay divers
 
 ### 3.2 Logo
 
-!["logopaginapersonal"](https://github.com/CvQuick/CvQuick/blob/master/logo.png)
+!["logopaginapersonal"](https://github.com/CvQuick/CvQuick/blob/master/images/logo.png)
 
 ### 3.3 Tema Principal 
 
@@ -372,11 +372,11 @@ Nos enseña plantillas del curriculum una vez terminadas como ejemplo.Hay divers
 
 ### 3.5 Boceto de la ubicación de cada una de las partes principales de la interfaz
 
-!["boceto1"](https://github.com/CvQuick/CvQuick/blob/master/bocetoPerfil.jpg)
+!["boceto1"](https://github.com/CvQuick/CvQuick/blob/master/images/bocetoPerfil.jpg)
 
-!["boceto2"](https://github.com/CvQuick/CvQuick/blob/master/bocetoEducacion.jpg)
+!["boceto2"](https://github.com/CvQuick/CvQuick/blob/master/images/bocetoEducacion.jpg)
 
-!["boceto3"](https://github.com/CvQuick/CvQuick/blob/master/bocetoCapacidades.jpg)
+!["boceto3"](https://github.com/CvQuick/CvQuick/blob/master/images/bocetoCapacidades.jpg)
 
 
 ### 3.6 Principios de diseño que vamos a aplicar
@@ -447,7 +447,7 @@ Hemos decidido que los colores los cuales vamos a utilizar para nuestra página 
 - Redireccionamientos engañosos 
 - Texto o enlaces ocultos 
 - Creación de páginas con comportamiento malicioso, como páginas que suplanten la identidad o instalen virus, troyanos u otro software malicioso
-- Relleno de las páginas con palabras irrelevantes.			 										
+- Relleno de las páginas con palabras irrelevantes.
 						 							
 ### 4.1.  Reparto de tareas
 
@@ -484,7 +484,7 @@ Equipo completo.
 Se realizan los puntos del 3 hasta el 5.
 
  - 10 / 10 / 2017 	Equipo completo.
-Se realizan algunos retoques.				
+Se realizan algunos retoques.
 						 							
 ### 4.4.  Informes semanales del Toggle (Puede usarse otra herramienta para gestionar el tiempo)
 
