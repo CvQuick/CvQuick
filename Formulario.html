@@ -3,6 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <title>Formulario</title>
+    
+    <script type="text/javascript" src="http://js.nicedit.com/nicEdit-latest.js"></script> <script type="text/javascript">
+    //<![CDATA[
+	bkLib.onDomLoaded(function() { nicEditors.allTextAreas() });
+	//]]>
+	</script>  
+    
 </head>
 <body>
 
@@ -98,6 +105,24 @@
     </nav>
     <input type="button" value="Añadir" id="LaboralAdd" class="add">
 </div>
+    
+<div class="subsection">
+    <nav class="subsection-form" id="formularioIntereses">
+		<div class="form-group">
+	        <label for="Intereses"><h4>Intereses</h4></label>
+	        <textarea name="Intereses" id="Intereses" cols="40" rows="5" ></textarea><br/>
+		</div>
+	</nav>	
+</div>
 
+<div class="subsection">    
+    <nav class="subsection-form" id="formularioReferencias">
+		<div class="form-group">
+	        <label for="Referencias"><h4>Referencias</h4></label>
+	        <textarea name="Referencias" id="Referencias" cols="40" rows="5" ></textarea><br/>
+		</div>
+	</nav>		
+</div>
+    
 </body>
 </html>
