@@ -3,18 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <title>Formulario</title>
-    
-    <script type="text/javascript" src="http://js.nicedit.com/nicEdit-latest.js"></script> <script type="text/javascript">
-    //<![CDATA[
-	bkLib.onDomLoaded(function() { nicEditors.allTextAreas() });
-	//]]>
-	</script>  
-    
 </head>
 <body>
 
 <div class="subsection">
-    <nav class="subsection-form" id="InformacionBasica">
+    <div class="subsection-form" id="InformacionBasica">
         <h3 class="title" id="InformacionBasicaTitulo">Informacion Basica</h3>
 
         <div class="form-group">
@@ -40,24 +33,24 @@
         <div class="form-group">
             <label for="LineaDireccion1">Linea de direccion 1</label>
             <input type="text" name="LineaDireccion1" id="LineaDireccion1">
-        </div>        
+        </div>
 
         <div class="form-group">
             <label for="LineaDireccion2">Linea de direccion 2</label>
             <input type="text" name="LineaDireccion2" id="LineaDireccion2">
-        </div>                
+        </div>
 
         <div class="form-group">
             <label for="LineaDireccion3">Linea de direccion 3</label>
             <input type="text" name="LineaDireccion3" id="LineaDireccion3">
-        </div>        
+        </div>
 
-    </nav>
+    </div>
     <input type="button" value="Añadir" id="InformacionBasicaAdd" class="add">
 </div>
-    
+
 <div class="subsection">
-    <nav class="subsection-form" id="Educacion">
+    <div class="subsection-form" id="Educacion">
         <h3 class="title" id="EducacionTitulo">Educación</h3>
         <div class="form-group">
             <label for="NombreCurso">Nombre del curso</label>
@@ -75,12 +68,12 @@
             <label for="FechaFinalEducacion">Fecha de finalizado</label>
             <input type="date" name="FechaFinalEducacion" id="FechaFinalEducacion">
         </div>
-    </nav>
+    </div>
     <input type="button" value="Añadir" id="EducacionAdd" class="add">
 </div>
 
 <div class="subsection">
-    <nav class="subsection-form" id="ExperienciaLaboral">
+    <div class="subsection-form" id="ExperienciaLaboral">
         <h3 class="title" id="ExperienciaTitulo">Experiencia Laboral</h3>
         <div class="form-group">
             <label for="NombreTrabajo">Nombre del puesto</label>
@@ -102,27 +95,78 @@
             <label for="DescripcionLaboral">Descripcion del puesto</label>
             <input type="text" name="DescripcionLaboral" id="DescripcionLaboral">
         </div>
-    </nav>
+    </div>
     <input type="button" value="Añadir" id="LaboralAdd" class="add">
 </div>
-    
+
 <div class="subsection">
-    <nav class="subsection-form" id="FormularioIntereses">
-		<div class="form-group">
-	        <label for="Intereses">Intereses</label>
-	        <textarea name="Intereses" id="Intereses" cols="40" rows="5" ></textarea>
-		</div>
-	</nav>	
+    <div class="subsection-form" id="FormularioIntereses">
+        <div class="form-group">
+            <label for="Intereses">Intereses</label>
+            <textarea name="Intereses" id="Intereses" cols="40" rows="5"></textarea>
+        </div>
+    </div>
 </div>
 
-<div class="subsection">    
-    <nav class="subsection-form" id="FormularioReferencias">
-		<div class="form-group">
-	        <label for="Referencias">Referencias</label>
-	        <textarea name="Referencias" id="Referencias" cols="40" rows="5" ></textarea>
-		</div>
-	</nav>		
+<div class="subsection">
+    <div class="subsection-form" id="FormularioReferencias">
+        <div class="form-group">
+            <label for="Referencias">Referencias</label>
+            <textarea name="Referencias" id="Referencias" cols="40" rows="5"></textarea>
+        </div>
+    </div>
 </div>
-    
+
+
+
+<div class="subsection">
+    <div class="subsection-form" id="Cualificaciones">
+        <h3 class="title" id="CualificacionesTitulo">Cualificaciones</h3>
+
+        <textarea name="Cualificaciones" cols="40"></textarea><br/>
+    </div>
+    <input type="button" value="Añadir" id="CualificacionesAdd" class="add">
+</div>
+
+
+
+
+
+
+<footer>
+    <div id="Footer-container">
+        <div id="Footer">
+            <div class="content friendly">
+                <ul class="extlinks noul">
+                    <li class="ssl">Encriptación de seguridad SSL de 256 bit</li>
+                </ul>
+
+                <ul class="links noul">
+                    <li class="title">Enlaces</li>
+                    <li><a href="#">Ayuda</a></li>
+                    <li><a href="#">Consejos para tu CV</a></li>
+                    <li><a href="contacto.html">Contribuyentes</a></li>
+                </ul>
+            </div>
+
+            <div class="clear"></div>
+
+            <div class="bar">
+                <div class="content">
+                    <p class="copyright">
+                        CV Quick © 2017 - 2017. Todos los derechos reservados.
+                    </p>
+
+                    <ul class="nav noul">
+                        <li><a href="#">Términos y Políticas de Privacidad</a></li>
+                        <li><a href="contacto.html">Contacto</a></li>
+                    </ul>
+
+                    <div class="clear"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
 </body>
 </html>
