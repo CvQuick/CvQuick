@@ -1,86 +1,103 @@
-
 /*Generales*/
 body {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
     margin: 0 0 0 0;
 }
+
 /*
 Al header le damos toda una fila, dividimos sus elementos y le damos un gradiente de negro a blanco.
  */
-header {
-    grid-column:1 / span 12;
-
-
-    display: flex;
-    align-items: flex-end ;
-    justify-content: space-between;
+#SectionHeader {
+    grid-column: 1 / span 12;
 
     background: white; /* For browsers that do not support gradients */
-    background: -webkit-linear-gradient(black,darkgrey, white); /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(black,darkgrey, white); /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(black,darkgrey, white); /* For Firefox 3.6 to 15 */
-    background: linear-gradient(black,darkgrey, white); /* Standard syntax */
+    background: -webkit-linear-gradient(black, darkgrey, white); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(black, darkgrey, white); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(black, darkgrey, white); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(black, darkgrey, white); /* Standard syntax */
 }
 
-footer {
+header {
+
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+
+    padding: 0% 2%;
+}
+
+#SectionFooter {
     margin-top: 50px;
 
     grid-column-start: 1;
     grid-column-end: 13;
 
-    display: flex;
-    align-items: flex-end ;
-    justify-content: space-between;
-
     background: white; /* For browsers that do not support gradients */
     background: -webkit-linear-gradient(white, black); /* For Safari 5.1 to 6.0 */
     background: -o-linear-gradient(white, black); /* For Opera 11.1 to 12.0 */
     background: -moz-linear-gradient(white, black); /* For Firefox 3.6 to 15 */
-    background: linear-gradient(white,darkgrey, black); /* Standard syntax */
+    background: linear-gradient(white, darkgrey, black); /* Standard syntax */
 }
 
-#Footer {
+Footer {
     display: flex;
+    align-items: flex-end;
     justify-content: space-between;
+
+    padding: 0% 2%;
+
 }
 
-/*Login*/
-img {
-    width: 20%;
-    height: 20%;
+#SectionContainer {
+    grid-column: 3 / 11;
 }
 
-.login {
-    grid-column-start: 4;
-    grid-column-end: 10;
-}
+/*!*Login*!*/
+/*img {*/
+    /*width: 20%;*/
+    /*height: 20%;*/
+/*}*/
 
-.content-friendly {
-    flex-direction: row;
-}
+/*.login {*/
+    /*grid-column-start: 4;*/
+    /*grid-column-end: 10;*/
+/*}*/
+
+/*.content-friendly {*/
+    /*flex-direction: row;*/
+/*}*/
 
 /*Mis curricumuls*/
 
-table{
-    grid-column-start: 3;
-    grid-column-end: 9;
+/*table {*/
+    /*grid-column-start: 3;*/
+    /*grid-column-end: 9;*/
+/*}*/
+
+/*!*Contacto*!*/
+/*.SobreNosotros {*/
+    /*grid-column-start: 3;*/
+    /*grid-column-end: 9;*/
+/*}*/
+
+/*!*Recuperar Password*!*/
+/*.subsection {*/
+    /*grid-column-start: 4;*/
+    /*grid-column-end: 9;*/
+/*}*/
+
+.logo {
+    width: 25%;
 }
 
-/*Contacto*/
-.SobreNosotros{
-    grid-column-start: 3;
-    grid-column-end: 9;
+li.title{
+    font-size: 2em;
+    list-style: none;
 }
-
-
-/*Recuperar Password*/
-.subsection {
-    grid-column-start: 4;
-    grid-column-end: 9;
+.links li a, .terminos li a, .navegacion-principal ul li a{
+    color: white;
 }
-
-.logo{
-    width: 20%;
+.links li, .terminos li, .navegacion-principal ul li{
+    list-style: none;
 }
-
