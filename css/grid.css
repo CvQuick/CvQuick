@@ -8,8 +8,7 @@ body {
 }
 
 header {
-  grid-column-start: 11;
-  grid-column-end: 13;
+  grid-column:1 / span 12;
 }
 
 footer {
