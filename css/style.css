@@ -5,7 +5,9 @@ body {
     grid-template-columns: repeat(12, 1fr);
     margin: 0 0 0 0;
 }
-
+/*
+Al header le damos toda una fila, dividimos sus elementos y le damos un gradiente de negro a blanco.
+ */
 header {
     grid-column:1 / span 12;
 
