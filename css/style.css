@@ -1,0 +1,84 @@
+
+/*Generales*/
+body {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    margin: 0 0 0 0;
+}
+
+header {
+    grid-column:1 / span 12;
+
+
+    display: flex;
+    align-items: flex-end ;
+    justify-content: space-between;
+
+    background: white; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(black,darkgrey, white); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(black,darkgrey, white); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(black,darkgrey, white); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(black,darkgrey, white); /* Standard syntax */
+}
+
+footer {
+    margin-top: 50px;
+
+    grid-column-start: 1;
+    grid-column-end: 13;
+
+    display: flex;
+    align-items: flex-end ;
+    justify-content: space-between;
+
+    background: white; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(white, black); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(white, black); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(white, black); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(white,darkgrey, black); /* Standard syntax */
+}
+
+#Footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+/*Login*/
+img {
+    width: 20%;
+    height: 20%;
+}
+
+.login {
+    grid-column-start: 4;
+    grid-column-end: 10;
+}
+
+.content-friendly {
+    flex-direction: row;
+}
+
+/*Mis curricumuls*/
+
+table{
+    grid-column-start: 3;
+    grid-column-end: 9;
+}
+
+/*Contacto*/
+.SobreNosotros{
+    grid-column-start: 3;
+    grid-column-end: 9;
+}
+
+
+/*Recuperar Password*/
+.subsection {
+    grid-column-start: 4;
+    grid-column-end: 9;
+}
+
+.logo{
+    width: 20%;
+}
+
