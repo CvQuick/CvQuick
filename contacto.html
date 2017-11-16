@@ -25,45 +25,45 @@
 </section>
 
 <section id="SectionContainer">
-    <div class="SobreNosotros">
-        <h4>Sobre nosotros</h4>
-        <p><a href="https://github.com/CvQuick/CvQuick">Codigo</a> fuente del proyecto</p>
-        <h4>Integrantes del equipo</h4>
-        <p><a href="https://github.com/NeOAngel01101">NeOAngel01101</a></p>
-        <p><a href="https://github.com/Juanlu1995">Juanlu1995</a></p>
-        <p><a href="https://github.com/Raojayou">Raojayou</a></p>
-        <p><a href="https://github.com/NavarroCantero">NavarroCantero</a></p>
+    <div id="Contacto">
+        <div class="SobreNosotros">
+            <h4>Sobre nosotros</h4>
+            <p><a href="https://github.com/CvQuick/CvQuick">Codigo</a> fuente del proyecto</p>
+            <h4>Integrantes del equipo</h4>
+            <p><a href="https://github.com/NeOAngel01101">NeOAngel01101</a></p>
+            <p><a href="https://github.com/Juanlu1995">Juanlu1995</a></p>
+            <p><a href="https://github.com/Raojayou">Raojayou</a></p>
+            <p><a href="https://github.com/NavarroCantero">NavarroCantero</a></p>
+        </div>
+
+        <form id="FormularioContacto">
+            <h3>Formulario de contacto</h3>
+            <div class="form-group ">
+                <label for="NombreContacto">Email *</label>
+                <input type="email" name="NombreContacto" id="NombreContacto"/>
+            </div>
+
+            <div class="form-group ">
+                <label for="AsuntoContacto">Asunto *</label>
+                <input type="text" name="AsuntoContacto" id="AsuntoContacto"/>
+            </div>
+
+            <div class="form-group ">
+                <label for="ComentarioContacto">Comentarios </label>
+                <textarea name="ComentarioContacto" id="ComentarioContacto"></textarea>
+            </div>
+
+            <div class="form-group ">
+                <input type="checkbox" id="PrivacidadContacto" name="PrivacidadContacto"/>
+                <label for="PrivacidadContacto">Acepto la <a
+                        href="https://www.google.es/intl/es/policies/privacy/">política de privacidad</a> *</label>
+            </div>
+
+
+            <p>* = Campos obligatorios</p>
+            <button type="submit" class="btn btn-secondary btn-orange pull-right">Enviar formulario</button>
+        </form>
     </div>
-
-    <h4>Formulario de contacto</h4>
-    <form>
-
-        <div class="form-group ">
-            <label for="NombreContacto">Email *</label>
-            <input type="email" name="NombreContacto" id="NombreContacto"/>
-        </div>
-
-        <div class="form-group ">
-            <label for="AsuntoContacto">Asunto *</label>
-            <input type="text" name="AsuntoContacto" id="AsuntoContacto"/>
-        </div>
-
-        <div class="form-group ">
-            <label for="ComentarioContacto">Comentarios </label>
-            <textarea name="ComentarioContacto" id="ComentarioContacto"></textarea>
-        </div>
-
-        <div class="form-group ">
-            <input type="checkbox" id="PrivacidadContacto" name="PrivacidadContacto"/>
-
-            <label for="PrivacidadContacto">Acepto la <a
-                    href="https://www.google.es/intl/es/policies/privacy/">política de privacidad</a> *</label>
-        </div>
-
-
-        <p>* = Campos obligatorios</p>
-        <button type="submit" class="btn btn-secondary btn-orange pull-right">Enviar formulario</button>
-    </form>
 </section>
 
 <section id="SectionFooter">
