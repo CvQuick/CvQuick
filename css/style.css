@@ -1,8 +1,21 @@
-/*Generales*/
+html{
+    height: 100%;
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
 body {
+    position: relative;
+    margin: 0;
+    min-height: 100%;
+
     display: grid;
     grid-template-columns: repeat(12, 1fr);
-    margin: 0 0 0 0;
 }
 
 /*
