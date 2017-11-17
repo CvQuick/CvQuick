@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <title>Formulario</title>
     <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+          rel="stylesheet">
 </head>
 <body>
 <section id="SectionHeader">
@@ -16,8 +18,8 @@
         <div class="navegacion-principal">
             <nav class="nav navegacion-principal" id="MenuNavegacion">
                 <ul>
-                    <li><a href="login.html"> Iniciar sesión / registrarse </a></li>
-                    <li><a href="mis_curriculums.html"> Ver mis curriculums </a></li>
+                    <li><i class="material-icons">perm_identity</i><a href="login.html"> Iniciar sesión / registrarse </a></li>
+                    <li><i class="material-icons">book</i><a href="mis_curriculums.html"> Ver mis curriculums </a></li>
                 </ul>
             </nav>
         </div>
@@ -66,7 +68,7 @@
             </div>
 
         </div>
-        <input type="button" value="Añadir" id="InformacionBasicaAdd" class="add">
+        <button type="button" value="Añadir" id="InformacionBasicaAdd" class="add"><i class="material-icons">add</i></button>
     </div>
 
     <div class="subsection">
@@ -89,7 +91,7 @@
                 <input type="date" name="FechaFinalEducacion" id="FechaFinalEducacion">
             </div>
         </div>
-        <input type="button" value="Añadir" id="EducacionAdd" class="add">
+        <button type="button" value="Añadir" id="EducacionAdd" class="add"><i class="material-icons">add</i></button>
     </div>
 
     <div class="subsection">
@@ -116,7 +118,7 @@
                 <input type="text" name="DescripcionLaboral" id="DescripcionLaboral">
             </div>
         </div>
-        <input type="button" value="Añadir" id="LaboralAdd" class="add">
+        <button type="button" value="Añadir" id="LaboralAdd" class="add"><i class="material-icons">add</i></button>
     </div>
 
     <div class="subsection">
@@ -144,11 +146,10 @@
                 <h3 class="title" id="CualificacionesTitulo"><label for="Cualificaciones">Cualificaciones</label></h3>
                 <textarea name="Cualificaciones" id="Cualificaciones" cols="40" rows="5"></textarea>
             </div>
-            <input type="button" value="Añadir" id="CualificacionesAdd" class="add">
         </div>
     </div>
 
-
+<button class="submit" type="submit">Crear CV</button>
 </section>
 
 <section id="SectionFooter">
@@ -156,21 +157,21 @@
         <div class="content friendly">
             <ul class="links">
                 <li class="title">Enlaces</li>
-                <li><a href="#">Ayuda</a></li>
-                <li><a href="#">Consejos para tu CV</a></li>
-                <li><a href="contacto.html">Contribuyentes</a></li>
+                <li><i class="material-icons">help</i><a href="#">Ayuda</a></li>
+                <li><i class="material-icons">live_help</i><a href="#">Consejos para tu CV</a></li>
+                <li><i class="material-icons">supervisor_account</i><a href="contacto.html">Contribuyentes</a></li>
             </ul>
         </div>
 
         <div class="bar">
             <div class="content">
                 <p class="copyright">
-                    CV Quick © 2017 - 2017. Todos los derechos reservados.
+                    <i class="material-icons">copyright</i> CV Quick © 2017 - 2017. Todos los derechos reservados.
                 </p>
 
                 <ul class="terminos">
-                    <li><a href="#">Términos y Políticas de Privacidad</a></li>
-                    <li><a href="contacto.html">Contacto</a></li>
+                    <li><i class="material-icons">library_books</i><a href="#">Términos y Políticas de Privacidad</a></li>
+                    <li><i class="material-icons">contact_mail</i><a href="contacto.html">Contacto</a></li>
                 </ul>
 
             </div>
