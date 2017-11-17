@@ -96,7 +96,17 @@ li.title{
     align-items: flex-start;
     justify-content: space-between;
 }
-
+.titulo-form {
+    width: 35%;
+}
+.inputs-form{
+    width: 65%;
+}
+input{
+    text-align:center;
+    border-top: 0;
+    border-style: solid none solid solid
+}
 table{
     width: 100%;
     text-align: center;
@@ -111,6 +121,9 @@ table{
     width: 100%;
     display: flex;
     justify-content: space-between;
+}
+.subsection{
+    margin-top: 1em;
 }
 .subsection-contacto{
     width: 45%;
