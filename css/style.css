@@ -49,10 +49,10 @@ header {
     grid-column-end: 13;
 
     background: #474747; /* For browsers that do not support gradients */
-    background: -webkit-linear-gradient(white, black); /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(white, black); /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(white, black); /* For Firefox 3.6 to 15 */
-    background: linear-gradient(white, darkgrey, black); /* Standard syntax */
+    background: -webkit-linear-gradient(rgba(71, 71, 71, 0), #474747); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(rgba(71, 71, 71, 0), #474747); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(rgba(71, 71, 71, 0), #474747); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(rgba(71, 71, 71, 0), #474747); /* Standard syntax */
 }
 
 Footer {
@@ -84,6 +84,14 @@ li.title{
 .links li, .terminos li, .navegacion-principal ul li{
     list-style: none;
 }
+.links li a:hover, .terminos li a:hover, .navegacion-principal ul li a:hover{
+    color: blue;
+}
+
+.links li a:visited, .terminos li a:visited, .navegacion-principal ul li a:visited{
+    color: purple;
+}
+
 
 .form-group{
     display: flex;
@@ -94,9 +102,12 @@ li.title{
 table{
     width: 100%;
     text-align: center;
+    border-collapse: collapse;
 }
 .titulo-tabla{
     padding-bottom: 1em;
+    border-bottom: 5px solid black;;
+    border-collapse: collapse;
 }
 #Contacto{
     width: 100%;
@@ -120,6 +131,23 @@ fieldset{
     float: left;
     clear: both;
 }
-button[type=submit]{
-    margin: 10%;
+.add, .submit{
+    width: 20%;
+}
+input{
+    height: 30px;
+    margin: 5px;
+}
+i{
+    vertical-align:middle;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+a:hover{
+    color: blue;
+}
+a:visited{
+    color: purple;
 }
