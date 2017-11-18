@@ -4,11 +4,11 @@
     <meta charset="UTF-8">
     <title>Formulario</title>
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Raleway" />
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Raleway"/>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
           rel="stylesheet">
 </head>
-<body background="images/fondoformulario.png">
+<body>
 <section id="SectionHeader">
     <header id="MainHeader">
         <div class="logo">
@@ -21,7 +21,8 @@
                 <ul>
                     <li><i class="material-icons">perm_identity</i><a href="login.html"> Iniciar sesión /
                         registrarse </a></li>
-                    <li><i class="material-icons">book</i><a href="mis_curriculums.html"> Ver mis curriculums </a></li>
+                    <li><i class="material-icons">book</i><a href="mis_curriculums.html"> Ver mis
+                        curriculums </a></li>
                 </ul>
             </nav>
         </div>
@@ -31,28 +32,48 @@
 
 <section id="SectionContainer">
     <div class="subsection">
-        <div class="form-group" id="InformacionBasica">
-            <div class="titulo-form">
-                <h2 class="title" id="InformacionBasicaTitulo">Informacion Basica</h2>
-                <button type="button" value="Añadir" id="InformacionBasicaAdd" class="add"><i
-                        class="material-icons">add</i></button>
+        <nav class="subsection-form" id="InformacionBasica">
+            <h3 class="title" id="InformacionBasicaTitulo">Informacion Basica</h3>
+
+            <div class="form-group">
+                <label for="NombreCompleto">Nombre Completo </label>
+                <input type="text" name="NombreCompleto" id="NombreCompleto">
             </div>
-            <div class="inputs-form">
-                <input id="NombreCompleto" placeholder="Nombre Completo"/>
 
+            <div class="form-group">
+                <label for="CorreoElectronico">Correo Electronico</label>
                 <input type="email" name="CorreoElectronico" id="CorreoElectronico">
+            </div>
 
+            <div class="form-group">
+                <label for="NumeroTelefono">Numero de telefono</label>
                 <input type="text" name="NumeroTelefono" id="NumeroTelefono">
+            </div>
 
+            <div class="form-group">
+                <label for="PaginasWeb">Paginas web</label>
                 <input type="text" name="PaginasWeb" id="PaginasWeb">
+            </div>
 
+            <div class="form-group">
+                <label for="LineaDireccion1">Linea de direccion 1</label>
                 <input type="text" name="LineaDireccion1" id="LineaDireccion1">
+            </div>
 
+            <div class="form-group">
+                <label for="LineaDireccion2">Linea de direccion 2</label>
                 <input type="text" name="LineaDireccion2" id="LineaDireccion2">
+            </div>
 
+            <div class="form-group">
+                <label for="LineaDireccion3">Linea de direccion 3</label>
                 <input type="text" name="LineaDireccion3" id="LineaDireccion3">
             </div>
-        </div>
+
+        </nav>
+        <!--HACE FALTA UN BOTON ADD EN INFO BASICA ?-->
+        <!--<button type="button" value="Añadir" id="InformacionBasicaAdd"-->
+        <!--class="add"><i class="material-icons">add</i></button>-->
     </div>
 
     <div class="subsection">
@@ -75,7 +96,8 @@
                 <input type="date" name="FechaFinalEducacion" id="FechaFinalEducacion">
             </div>
         </div>
-        <button type="button" value="Añadir" id="EducacionAdd" class="add"><i class="material-icons">add</i></button>
+        <button type="button" value="Añadir" id="EducacionAdd" class="add"><i
+            class="material-icons">add</i></button>
     </div>
 
     <div class="subsection">
@@ -102,7 +124,8 @@
                 <input type="text" name="DescripcionLaboral" id="DescripcionLaboral">
             </div>
         </div>
-        <button type="button" value="Añadir" id="LaboralAdd" class="add"><i class="material-icons">add</i></button>
+        <button type="button" value="Añadir" id="LaboralAdd" class="add"><i
+            class="material-icons">add</i></button>
     </div>
 
     <div class="subsection">
@@ -127,7 +150,8 @@
     <div class="subsection">
         <div class="subsection-form" id="FormularioCualificaciones">
             <div class="form-group">
-                <h3 class="title" id="CualificacionesTitulo"><label for="Cualificaciones">Cualificaciones</label></h3>
+                <h3 class="title" id="CualificacionesTitulo"><label
+                    for="Cualificaciones">Cualificaciones</label></h3>
                 <textarea name="Cualificaciones" id="Cualificaciones" cols="40" rows="5"></textarea>
             </div>
         </div>
@@ -140,30 +164,32 @@
     <footer>
         <div class="content friendly">
             <ul class="links">
-                <li class="title">Enlaces</li>
                 <li><i class="material-icons">help</i><a href="#">Ayuda</a></li>
                 <li><i class="material-icons">live_help</i><a href="#">Consejos para tu CV</a></li>
-                <li><i class="material-icons">supervisor_account</i><a href="contacto.html">Contribuyentes</a></li>
             </ul>
         </div>
-
+        <div class="reserved">
+            <p class="copyright">
+                <i class="material-icons">copyright</i> <span translate="no ">CV Quick</span> © 2017 -
+                2017. Todos
+                los derechos reservados.
+            </p>
+        </div>
         <div class="bar">
             <div class="content">
-                <p class="copyright">
-                    <i class="material-icons">copyright</i> <span translate="no ">CV Quick</span> © 2017 - 2017. Todos
-                    los derechos reservados.
-                </p>
-                <!--Aqui usamos el 'translate=no' para lo que es nuestra Marca, no queremos que la traduzca-->
 
+
+                <!--Aqui usamos el 'translate=no' para lo que es nuestra Marca, no queremos que la traduzca-->
                 <ul class="terminos">
-                    <li><i class="material-icons">library_books</i><a href="#">Términos y Políticas de Privacidad</a>
+                    <li><i class="material-icons">library_books</i><a href="#">Términos y Políticas de
+                        Privacidad</a>
                     </li>
                     <li><i class="material-icons">contact_mail</i><a href="contacto.html">Contacto</a></li>
                 </ul>
-
             </div>
         </div>
     </footer>
 </section>
+
 </body>
 </html>
