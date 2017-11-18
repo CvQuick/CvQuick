@@ -263,6 +263,8 @@ h3.title {
 
 .slider img{
     width: 100%;
+    border: solid black;
+
 }
 
 @keyframes cambio {
@@ -277,4 +279,8 @@ h3.title {
 
     75% { margin-left:  -300%; }
     100% { margin-left: -300%; }
+}
+
+.slider{
+    justify-self: center;
 }
