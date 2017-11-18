@@ -1,169 +1,195 @@
 <!DOCTYPE html>
 <html lang="es_ES">
 <head>
-    <meta charset="UTF-8">
-    <title>Formulario</title>
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Raleway" />
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
-          rel="stylesheet">
+  <meta charset="UTF-8">
+  <title>Formulario</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Raleway"/>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+        rel="stylesheet">
 </head>
-<body background="images/fondoformulario.png">
+<body>
 <section id="SectionHeader">
-    <header id="MainHeader">
-        <div class="logo">
-            <a href="index.html" class="logo">
-                <img src="images/logo.png" alt="logo" class="logo">
-            </a>
-        </div>
-        <div class="navegacion-principal">
-            <nav class="nav navegacion-principal" id="MenuNavegacion">
-                <ul>
-                    <li><i class="material-icons">perm_identity</i><a href="login.html"> Iniciar sesión /
-                        registrarse </a></li>
-                    <li><i class="material-icons">book</i><a href="mis_curriculums.html"> Ver mis curriculums </a></li>
-                </ul>
-            </nav>
-        </div>
-    </header>
+  <header id="MainHeader">
+    <div class="logo">
+      <a href="index.html" class="logo">
+        <img src="images/logo.png" alt="logo" class="logo">
+      </a>
+    </div>
+    <div class="navegacion-principal">
+      <nav class="nav navegacion-principal" id="MenuNavegacion">
+        <ul>
+          <li><i class="material-icons">perm_identity</i><a href="login.html"> Iniciar sesión /
+            registrarse </a></li>
+          <li><i class="material-icons">book</i><a href="mis_curriculums.html"> Ver mis
+            curriculums </a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
 </section>
 
 
 <section id="SectionContainer">
-    <div class="subsection">
-        <div class="form-group" id="InformacionBasica">
-            <div class="titulo-form">
-                <h2 class="title" id="InformacionBasicaTitulo">Informacion Basica</h2>
-                <button type="button" value="Añadir" id="InformacionBasicaAdd" class="add"><i
-                        class="material-icons">add</i></button>
-            </div>
-            <div class="inputs-form">
-                <input id="NombreCompleto" placeholder="Nombre Completo"/>
+  <div class="subsection">
+    <nav class="subsection-form" id="InformacionBasica">
+      <h3 class="title" id="InformacionBasicaTitulo">Informacion Basica</h3>
 
-                <input type="email" name="CorreoElectronico" id="CorreoElectronico">
+      <div class="form-group">
+        <label for="NombreCompleto">Nombre Completo </label>
+        <input type="text" name="NombreCompleto" id="NombreCompleto">
+      </div>
 
-                <input type="text" name="NumeroTelefono" id="NumeroTelefono">
+      <div class="form-group">
+        <label for="CorreoElectronico">Correo Electronico</label>
+        <input type="email" name="CorreoElectronico" id="CorreoElectronico">
+      </div>
 
-                <input type="text" name="PaginasWeb" id="PaginasWeb">
+      <div class="form-group">
+        <label for="NumeroTelefono">Numero de telefono</label>
+        <input type="text" name="NumeroTelefono" id="NumeroTelefono">
+      </div>
 
-                <input type="text" name="LineaDireccion1" id="LineaDireccion1">
+      <div class="form-group">
+        <label for="PaginasWeb">Paginas web</label>
+        <input type="text" name="PaginasWeb" id="PaginasWeb">
+      </div>
 
-                <input type="text" name="LineaDireccion2" id="LineaDireccion2">
+      <div class="form-group">
+        <label for="LineaDireccion1">Linea de direccion 1</label>
+        <input type="text" name="LineaDireccion1" id="LineaDireccion1">
+      </div>
 
-                <input type="text" name="LineaDireccion3" id="LineaDireccion3">
-            </div>
-        </div>
+      <div class="form-group">
+        <label for="LineaDireccion2">Linea de direccion 2</label>
+        <input type="text" name="LineaDireccion2" id="LineaDireccion2">
+      </div>
+
+      <div class="form-group">
+        <label for="LineaDireccion3">Linea de direccion 3</label>
+        <input type="text" name="LineaDireccion3" id="LineaDireccion3">
+      </div>
+
+    </nav>
+    <!--HACE FALTA UN BOTON ADD EN INFO BASICA ?-->
+    <!--<button type="button" value="Añadir" id="InformacionBasicaAdd"-->
+    <!--class="add"><i class="material-icons">add</i></button>-->
+  </div>
+
+  <div class="subsection">
+    <div class="subsection-form" id="Educacion">
+      <h3 class="title" id="EducacionTitulo">Educación</h3>
+      <div class="form-group">
+        <label for="NombreCurso">Nombre del curso</label>
+        <input type="text" name="NombreCurso" id="NombreCurso">
+      </div>
+      <div class="form-group">
+        <label for="NombreInstituto">Nombre del Instituto o universidad</label>
+        <input type="text" name="NombreInstituto" id="NombreInstituto">
+      </div>
+      <div class="form-group">
+        <label for="FechaInicioEducacion">Fecha de inicio</label>
+        <input type="date" name="FechaInicioEducacion" id="FechaInicioEducacion">
+      </div>
+      <div class="form-group">
+        <label for="FechaFinalEducacion">Fecha de finalizado</label>
+        <input type="date" name="FechaFinalEducacion" id="FechaFinalEducacion">
+      </div>
     </div>
+    <button type="button" value="Añadir" id="EducacionAdd" class="add"><i
+        class="material-icons">add</i></button>
+  </div>
 
-    <div class="subsection">
-        <div class="subsection-form" id="Educacion">
-            <h3 class="title" id="EducacionTitulo">Educación</h3>
-            <div class="form-group">
-                <label for="NombreCurso">Nombre del curso</label>
-                <input type="text" name="NombreCurso" id="NombreCurso">
-            </div>
-            <div class="form-group">
-                <label for="NombreInstituto">Nombre del Instituto o universidad</label>
-                <input type="text" name="NombreInstituto" id="NombreInstituto">
-            </div>
-            <div class="form-group">
-                <label for="FechaInicioEducacion">Fecha de inicio</label>
-                <input type="date" name="FechaInicioEducacion" id="FechaInicioEducacion">
-            </div>
-            <div class="form-group">
-                <label for="FechaFinalEducacion">Fecha de finalizado</label>
-                <input type="date" name="FechaFinalEducacion" id="FechaFinalEducacion">
-            </div>
-        </div>
-        <button type="button" value="Añadir" id="EducacionAdd" class="add"><i class="material-icons">add</i></button>
+  <div class="subsection">
+    <div class="subsection-form" id="ExperienciaLaboral">
+      <h3 class="title" id="ExperienciaTitulo">Experiencia Laboral</h3>
+      <div class="form-group">
+        <label for="NombreTrabajo">Nombre del puesto</label>
+        <input type="text" name="NombreTrabajo" id="NombreTrabajo">
+      </div>
+      <div class="form-group">
+        <label for="NombreEmpresa">Nombre de la empresa</label>
+        <input type="text" name="NombreEmpresa" id="NombreEmpresa">
+      </div>
+      <div class="form-group">
+        <label for="FechaInicioLaboral">Fecha de inicio</label>
+        <input type="date" name="FechaInicioLaboral" id="FechaInicioLaboral">
+      </div>
+      <div class="form-group">
+        <label for="FechaFinalLaboral">Fecha de finalizado</label>
+        <input type="date" name="FechaFinalLaboral" id="FechaFinalLaboral">
+      </div>
+      <div class="form-group">
+        <label for="DescripcionLaboral">Descripcion del puesto</label>
+        <input type="text" name="DescripcionLaboral" id="DescripcionLaboral">
+      </div>
     </div>
+    <button type="button" value="Añadir" id="LaboralAdd" class="add"><i
+        class="material-icons">add</i></button>
+  </div>
 
-    <div class="subsection">
-        <div class="subsection-form" id="ExperienciaLaboral">
-            <h3 class="title" id="ExperienciaTitulo">Experiencia Laboral</h3>
-            <div class="form-group">
-                <label for="NombreTrabajo">Nombre del puesto</label>
-                <input type="text" name="NombreTrabajo" id="NombreTrabajo">
-            </div>
-            <div class="form-group">
-                <label for="NombreEmpresa">Nombre de la empresa</label>
-                <input type="text" name="NombreEmpresa" id="NombreEmpresa">
-            </div>
-            <div class="form-group">
-                <label for="FechaInicioLaboral">Fecha de inicio</label>
-                <input type="date" name="FechaInicioLaboral" id="FechaInicioLaboral">
-            </div>
-            <div class="form-group">
-                <label for="FechaFinalLaboral">Fecha de finalizado</label>
-                <input type="date" name="FechaFinalLaboral" id="FechaFinalLaboral">
-            </div>
-            <div class="form-group">
-                <label for="DescripcionLaboral">Descripcion del puesto</label>
-                <input type="text" name="DescripcionLaboral" id="DescripcionLaboral">
-            </div>
-        </div>
-        <button type="button" value="Añadir" id="LaboralAdd" class="add"><i class="material-icons">add</i></button>
+  <div class="subsection">
+    <div class="subsection-form" id="FormularioIntereses">
+      <div class="form-group">
+        <h3 class="title" id="InteresesTitulo"><label for="Intereses">Intereses</label></h3>
+        <textarea name="Intereses" id="Intereses" cols="40" rows="5"></textarea>
+      </div>
     </div>
+  </div>
 
-    <div class="subsection">
-        <div class="subsection-form" id="FormularioIntereses">
-            <div class="form-group">
-                <h3 class="title" id="InteresesTitulo"><label for="Intereses">Intereses</label></h3>
-                <textarea name="Intereses" id="Intereses" cols="40" rows="5"></textarea>
-            </div>
-        </div>
+  <div class="subsection">
+    <div class="subsection-form" id="FormularioReferencias">
+      <div class="form-group">
+        <h3 class="title" id="ReferenciasTitulo"><label for="Referencias">Referencias</label></h3>
+        <textarea name="Referencias" id="Referencias" cols="40" rows="5"></textarea>
+      </div>
     </div>
+  </div>
 
-    <div class="subsection">
-        <div class="subsection-form" id="FormularioReferencias">
-            <div class="form-group">
-                <h3 class="title" id="ReferenciasTitulo"><label for="Referencias">Referencias</label></h3>
-                <textarea name="Referencias" id="Referencias" cols="40" rows="5"></textarea>
-            </div>
-        </div>
+
+  <div class="subsection">
+    <div class="subsection-form" id="FormularioCualificaciones">
+      <div class="form-group">
+        <h3 class="title" id="CualificacionesTitulo"><label
+            for="Cualificaciones">Cualificaciones</label></h3>
+        <textarea name="Cualificaciones" id="Cualificaciones" cols="40" rows="5"></textarea>
+      </div>
     </div>
+  </div>
 
-
-    <div class="subsection">
-        <div class="subsection-form" id="FormularioCualificaciones">
-            <div class="form-group">
-                <h3 class="title" id="CualificacionesTitulo"><label for="Cualificaciones">Cualificaciones</label></h3>
-                <textarea name="Cualificaciones" id="Cualificaciones" cols="40" rows="5"></textarea>
-            </div>
-        </div>
-    </div>
-
-    <button class="submit" type="submit">Crear CV</button>
+  <button class="submit" type="submit">Crear CV</button>
 </section>
 
 <section id="SectionFooter">
-    <footer>
-        <div class="content friendly">
-            <ul class="links">
-                <li class="title">Enlaces</li>
-                <li><i class="material-icons">help</i><a href="#">Ayuda</a></li>
-                <li><i class="material-icons">live_help</i><a href="#">Consejos para tu CV</a></li>
-                <li><i class="material-icons">supervisor_account</i><a href="contacto.html">Contribuyentes</a></li>
-            </ul>
-        </div>
+  <footer>
+    <div class="content friendly">
+      <ul class="links">
+        <li><i class="material-icons">help</i><a href="#">Ayuda</a></li>
+        <li><i class="material-icons">live_help</i><a href="#">Consejos para tu CV</a></li>
+      </ul>
+    </div>
+    <div class="reserved">
+      <p class="copyright">
+        <i class="material-icons">copyright</i> <span translate="no ">CV Quick</span> © 2017 -
+        2017. Todos
+        los derechos reservados.
+      </p>
+    </div>
+    <div class="bar">
+      <div class="content">
 
-        <div class="bar">
-            <div class="content">
-                <p class="copyright">
-                    <i class="material-icons">copyright</i> <span translate="no ">CV Quick</span> © 2017 - 2017. Todos
-                    los derechos reservados.
-                </p>
-                <!--Aqui usamos el 'translate=no' para lo que es nuestra Marca, no queremos que la traduzca-->
 
-                <ul class="terminos">
-                    <li><i class="material-icons">library_books</i><a href="#">Términos y Políticas de Privacidad</a>
-                    </li>
-                    <li><i class="material-icons">contact_mail</i><a href="contacto.html">Contacto</a></li>
-                </ul>
-
-            </div>
-        </div>
-    </footer>
+        <!--Aqui usamos el 'translate=no' para lo que es nuestra Marca, no queremos que la traduzca-->
+        <ul class="terminos">
+          <li><i class="material-icons">library_books</i><a href="#">Términos y Políticas de
+            Privacidad</a>
+          </li>
+          <li><i class="material-icons">contact_mail</i><a href="contacto.html">Contacto</a></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
 </section>
+
 </body>
 </html>
