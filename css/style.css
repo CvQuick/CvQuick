@@ -67,6 +67,7 @@ Footer {
 
 #SectionContainer {
     grid-column: 3 / 11;
+    color: white;
 }
 
 .logo{
@@ -95,6 +96,7 @@ li.title{
     display: flex;
     align-items: flex-start;
     justify-content: space-between;
+    color: white;
 }
 .titulo-form {
     width: 35%;
@@ -124,6 +126,7 @@ table{
 }
 .subsection{
     margin-top: 1em;
+    color: white;
 }
 .subsection-contacto{
     width: 45%;
@@ -153,14 +156,14 @@ i{
     vertical-align:middle;
 }
 a{
-    color: black;
+    color: white;
     text-decoration: none;
 }
 a:hover{
     color: blue;
 }
 a:visited{
-    color: purple;
+    color: none;
 }
 
 
