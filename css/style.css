@@ -1,286 +1,300 @@
 
 html {
-    height: 100%;
-    box-sizing: border-box;
+  height: 100%;
+  box-sizing: border-box;
 }
 
 *,
 *:before,
 *:after {
-    box-sizing: inherit;
+  box-sizing: inherit;
 }
 
 body {
-    position: relative;
-    margin: 0;
-    min-height: 100%;
-    display: grid;
-    grid-template-columns: repeat(12, 1fr);
-    background-image: url("../images/fondoformulario.png");
+  position: relative;
+  margin: 0;
+  min-height: 100%;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  background-image: url("../images/fondoformulario.png");
 }
 
 /*
 Al header le damos toda una fila, dividimos sus elementos y le damos un gradiente de negro a blanco.
  */
 #SectionHeader {
-    grid-column: 1 / span 12;
+  grid-column: 1 / span 12;
 
-    height: 100px;
+  height: 100px;
 
-    background: #474747; /* For browsers that do not support gradients */
-    /*background: -webkit-linear-gradient(black, darkgrey, white); !* For Safari 5.1 to 6.0 *!*/
-    /*background: -o-linear-gradient(black, darkgrey, white); !* For Opera 11.1 to 12.0 *!*/
-    /*background: -moz-linear-gradient(black, darkgrey, white); !* For Firefox 3.6 to 15 *!*/
-    /*background: linear-gradient(black, darkgrey, white); !* Standard syntax *!*/
+  background: #474747; /* For browsers that do not support gradients */
+  /*background: -webkit-linear-gradient(black, darkgrey, white); !* For Safari 5.1 to 6.0 *!*/
+  /*background: -o-linear-gradient(black, darkgrey, white); !* For Opera 11.1 to 12.0 *!*/
+  /*background: -moz-linear-gradient(black, darkgrey, white); !* For Firefox 3.6 to 15 *!*/
+  /*background: linear-gradient(black, darkgrey, white); !* Standard syntax *!*/
 
 }
 
 header {
 
-    display: flex;
-    align-items: flex-start;
-    justify-content: space-between;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
 
-    padding: 0 2%;
+  padding: 0 2%;
 }
 
 #SectionFooter {
-    margin-top: 50px;
-    justify-content: space-between;
+  margin-top: 50px;
+  justify-content: space-between;
 
-    grid-column-start: 1;
-    grid-column-end: 13;
+  grid-column-start: 1;
+  grid-column-end: 13;
 
-    background: #474747; /* For browsers that do not support gradients */
-    background: -webkit-linear-gradient(rgba(71, 71, 71, 0), #474747); /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(rgba(71, 71, 71, 0), #474747); /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(rgba(71, 71, 71, 0), #474747); /* For Firefox 3.6 to 15 */
-    background: linear-gradient(rgba(71, 71, 71, 0), #474747); /* Standard syntax */
+  background: #474747; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(rgba(71, 71, 71, 0), #474747); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(rgba(71, 71, 71, 0), #474747); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(rgba(71, 71, 71, 0), #474747); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(rgba(71, 71, 71, 0), #474747); /* Standard syntax */
 }
 
 Footer {
-    display: flex;
-    align-items: flex-end;
-    justify-content: space-between;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
 
-    padding: 0 2%;
+  padding: 0 2%;
 
 }
 
 #SectionContainer {
-    grid-column: 3 / 11;
-    color: white;
+  grid-column: 3 / 11;
+  color: white;
 }
 
 .logo {
-    max-width: 100px;
-    width: 90%;
+  max-width: 100px;
+  width: 90%;
 }
 
 li.title {
-    font-size: 2em;
-    list-style: none;
+  font-size: 2em;
+  list-style: none;
 }
 
 .links li a, .terminos li a, .navegacion-principal ul li a {
-    color: white;
+  color: white;
 }
 
 .links li, .terminos li, .navegacion-principal ul li {
-    list-style: none;
+  list-style: none;
 }
 
 .links li a:hover, .terminos li a:hover, .navegacion-principal ul li a:hover {
-    color: blue;
+  color: blue;
 }
 
 .form-group {
-    display: flex;
-    align-items: flex-start;
-    justify-content: space-between;
-    color: white;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  color: white;
 }
 
 .titulo-form {
-    width: 35%;
+  width: 35%;
 }
 
 .inputs-form {
-    width: 65%;
+  width: 65%;
 }
 
 input {
-    text-align: center;
-    border-top: 0;
-    border-style: solid none solid solid
+  text-align: center;
+  border-top: 0;
+  border-style: solid none solid solid
 }
 
 table {
-    width: 100%;
-    text-align: center;
-    border-collapse: collapse;
+  width: 100%;
+  text-align: center;
+  border-collapse: collapse;
 }
 
 .titulo-tabla {
-    padding-bottom: 1em;
-    border-bottom: 5px solid black;;
-    border-collapse: collapse;
+  padding-bottom: 1em;
+  border-bottom: 5px solid black;;
+  border-collapse: collapse;
 }
 
 #Contacto {
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
 }
 
 .subsection {
-    margin-top: 1em;
-    color: white;
+  margin-top: 1em;
+  color: white;
 }
 
 .subsection-contacto {
-    width: 45%;
+  width: 45%;
 }
 
 fieldset {
-    height: 100%;
+  height: 100%;
 }
 
 #FormularioContacto {
-    height: 100%;
+  height: 100%;
 }
 
 .derecha {
-    float: right;
-    clear: both;
+  float: right;
+  clear: both;
 }
 
 .izquierda {
-    float: left;
-    clear: both;
+  float: left;
+  clear: both;
 }
 
 .add, .submit {
-    width: 20%;
+  width: 20%;
 }
 
 input {
-    height: 30px;
-    margin: 5px;
+  height: 30px;
+  margin: 5px;
 }
 
 i {
-    vertical-align: middle;
+  vertical-align: middle;
 }
 
 a {
-    color: white;
-    text-decoration: none;
+  color: white;
+  text-decoration: none;
 }
 
 a:hover {
-    color: blue;
+  color: blue;
 }
 
 a:visited {
-    color: none;
+  color: none;
 }
 
 /*// Definicion de todos los botones e input tipo submit*/
 button, input[type=submit] {
-    background: #3498db;
-    background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
-    background-image: -moz-linear-gradient(top, #3498db, #2980b9);
-    background-image: -ms-linear-gradient(top, #3498db, #2980b9);
-    background-image: -o-linear-gradient(top, #3498db, #2980b9);
-    background-image: linear-gradient(to bottom, #3498db, #2980b9);
-    -webkit-border-radius: 28;
-    -moz-border-radius: 28;
-    border-radius: 28px;
-    color: #ffffff;
-    padding: 10px 10px 10px 10px;
-    text-decoration: none;
+  background: #3498db;
+  background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+  background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+  background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+  background-image: -o-linear-gradient(top, #3498db, #2980b9);
+  background-image: linear-gradient(to bottom, #3498db, #2980b9);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  color: #ffffff;
+  padding: 10px 10px 10px 10px;
+  text-decoration: none;
 }
 
 button:hover, input[type=submit]:hover {
-    background: #3cb0fd;
-    background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
-    background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
-    background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
-    background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
-    background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
-    text-decoration: none;
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
 }
 
 p, label, td, a {
-    font-family: Raleway;
-    font-size: 14px;
-    font-style: normal;
-    font-variant: normal;
-    font-weight: 400;
-    line-height: 20px;
+  font-family: Raleway;
+  font-size: 14px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 400;
+  line-height: 20px;
 }
 
-.subsection {
-    border: solid black;
-    background-color: rgba(237, 227, 255, 0.3);
-    padding: 2em;
-    margin: 2em
+.subsection, #Contacto {
+  border: solid black;
+  background-color: rgba(237, 227, 255, 0.3);
+  padding: 2em;
+  margin: 2em
 }
 
 h3.title {
-    text-align: center;
+  text-align: center;
 }
 
 .submit {
-    margin-left:3em;
+  margin-left: 3em;
 }
 
-.reserved{
-    justify-content: center;
+.reserved {
+  justify-content: center;
 }
 
-.slider{
-    width: 700%;
-    margin: auto;
-    overflow: hidden;
-    display:block;
-    position:relative;
+
+.slider {
+  width: 700%;
+  margin: auto;
+  overflow: hidden;
+  display: inline-block;
+  grid-column-start: 2;
 }
 
-.slider ul{
-    display: flex;
-    padding : 0;
-    width: 400%;
+.slider ul {
+  display: flex;
+  padding: 0;
+  width: 400%;
 
-    animation: cambio 20s infinite;
+  animation: cambio 20s infinite;
 }
 
-.slider li{
-    width: 100%;
-    list-style: none;
+.slider li {
+  width: 100%;
+  list-style: none;
 }
 
-.slider img{
-    width: 100%;
-    border: solid black;
+.slider img {
+  width: 100%;
+  border: solid black;
 
 }
 
 @keyframes cambio {
-    0% { margin-left: 0; }
-    20% { margin-left: 0; }
+  0% {
+    margin-left: 0;
+  }
+  20% {
+    margin-left: 0;
+  }
 
-    25% { margin-left: -100%; }
-    45% { margin-left: -100%; }
+  25% {
+    margin-left: -100%;
+  }
+  45% {
+    margin-left: -100%;
+  }
 
-    50% { margin-left: -200%; }
-    70% { margin-left: -200%; }
+  50% {
+    margin-left: -200%;
+  }
+  70% {
+    margin-left: -200%;
+  }
 
-    75% { margin-left:  -300%; }
-    100% { margin-left: -300%; }
+  75% {
+    margin-left: -300%;
+  }
+  100% {
+    margin-left: -300%;
+  }
 }
 
-.slider{
-    justify-self: center;
-}
