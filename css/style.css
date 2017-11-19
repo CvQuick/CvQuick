@@ -1,4 +1,6 @@
-
+/*
+Establecemos un estilo para que, sea cual sea el tamaño de la página, simpre nos ocupe toda la pantalla.
+ */
 html {
   height: 100%;
   box-sizing: border-box;
@@ -9,7 +11,9 @@ html {
 *:after {
   box-sizing: inherit;
 }
-
+/*
+Dividimos la pagina en 12 columnas y establecemos una imagen de fondo
+ */
 body {
   position: relative;
   margin: 0;
@@ -20,7 +24,7 @@ body {
 }
 
 /*
-Al header le damos toda una fila, dividimos sus elementos y le damos un gradiente de negro a blanco.
+Al header le damos toda una fila y le damos un fondo gris
  */
 #SectionHeader {
   grid-column: 1 / span 12;
@@ -28,13 +32,10 @@ Al header le damos toda una fila, dividimos sus elementos y le damos un gradient
   height: 90px;
 
   background: #474747; /* For browsers that do not support gradients */
-  /*background: -webkit-linear-gradient(black, darkgrey, white); !* For Safari 5.1 to 6.0 *!*/
-  /*background: -o-linear-gradient(black, darkgrey, white); !* For Opera 11.1 to 12.0 *!*/
-  /*background: -moz-linear-gradient(black, darkgrey, white); !* For Firefox 3.6 to 15 *!*/
-  /*background: linear-gradient(black, darkgrey, white); !* Standard syntax *!*/
-
 }
-
+/*
+Dividimos los elementos del header y le damos unos margenes laterales a los elementos.
+ */
 header {
 
   display: flex;
@@ -43,7 +44,9 @@ header {
 
   padding: 0 2%;
 }
-
+/*
+Al footer le damos toda una fila y le damos un gradiente de transparente a gris.
+ */
 #SectionFooter {
   margin-top: 50px;
   justify-content: space-between;
@@ -57,7 +60,9 @@ header {
   background: -moz-linear-gradient(rgba(71, 71, 71, 0), #474747); /* For Firefox 3.6 to 15 */
   background: linear-gradient(rgba(71, 71, 71, 0), #474747); /* Standard syntax */
 }
-
+/*
+Dividimos los elementos del footer y le damos unos margenes laterales a los elementos.
+ */
 Footer {
   display: flex;
   align-items: flex-end;
@@ -66,12 +71,17 @@ Footer {
   padding: 0 2%;
 
 }
-
+/*
+Al footer le damos unas columnas centrales para que el contenido de nuestra página simpre esté centrado.
+Establecemos el color de sus elemntos en blanco
+ */
 #SectionContainer {
   grid-column: 3 / 11;
   color: white;
 }
-
+/*
+Le damos el tamaño al logo
+ */
 .logo {
   max-width: 100px;
   width: 90%;
@@ -81,7 +91,10 @@ li.title {
   font-size: 2em;
   list-style: none;
 }
-
+/*
+Los elementos del footer y el header le establecemos el mismo estilo: blanco por defecto, sin decoración a las listas y
+cuando el raton está posado los enlaces se vuelven azules
+ */
 .links li a, .terminos li a, .navegacion-principal ul li a {
   color: white;
 }
@@ -97,21 +110,18 @@ li.title {
   margin: 0 10px;
 }
 
+/*
+Establecemos el espacios entre todos los elementos formulario de nuestra página
+ */
 .form-group {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  color: white;
 }
 
-.titulo-form {
-  width: 35%;
-}
-
-.inputs-form {
-  width: 65%;
-}
-
+/*
+Establecemos los bordes de los inputs y centramos el contenido de los mismos
+ */
 input{
   text-align: center;
   border-top: 0;
@@ -119,19 +129,27 @@ input{
   height: 30px;
   margin: 5px;
 }
+/*
+Establecemos los bordes de los textarea
+ */
 textarea{
-  border-top: 0;
   border-style: none none solid solid;
   border-color: black;
   border-width: 2px;
+  border-top: 0;
 }
 
+/*
+Establecemos que los bordes de las tablas, así como que su tamaño sea el 100% de su contendor y que sus elementos estén centrados
+ */
 table {
   width: 100%;
   text-align: center;
   border-collapse: collapse;
 }
-
+/*
+El titulo de la tabla tendrá un espacio inferior y unicamente borde inferior
+ */
 .titulo-tabla {
   padding-bottom: 1em;
   border-bottom: 5px solid black;;
@@ -175,19 +193,28 @@ fieldset {
   width: 20%;
 }
 
+/*
+Todos los iconos iran centrados con el texto. Por defecto, los iconos se posicionan un poco en alto con respecto a sus elementos hermanos.
+ */
 i {
   vertical-align: middle;
 }
-
+/*
+Establecemos el color del texto de los enlaces en blanco y sin subrayado para conseguir una mayor seriedad en la página.
+ */
 a {
   color: white;
   text-decoration: none;
 }
-
+/*
+Para diferenciar los enlaces de lo que no son enlaces, cuando el raton se posa por encima el enlace se vuelve azul
+ */
 a:hover {
   color: blue;
 }
-
+/*
+Cuando el enlace ha sido visitado, no establecemos ningun color.
+ */
 a:visited {
   color: unset;
 }
@@ -219,6 +246,10 @@ button:hover, input[type=submit]:hover {
   text-decoration: none;
 }
 
+/*
+Establecemos el tipo de letra especial de la página.
+Nuestra elegida el Raleway, siendo aplicada a los parrafos, label, celdas de tabla y enlaces.
+ */
 p, label, td, a {
   font-family: Raleway;
   font-size: 14px;
@@ -317,17 +348,28 @@ nav>ul{
     transform: rotate(360deg);
     -webkit-transform: rotate(360deg);
 }
+
+/*
+REDES SOCIALES
+ */
+/*
+Establecemos el espacio entre los elementos de redes sociales del footer
+ */
 .redes-sociales{
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-
+/*
+Establecemos el tamaño y el margen de los logos
+ */
 i.fa{
   font-size: 36px;
   margin-bottom: 10px;
 }
-
+/*
+Y, por ultimo, establecemos los colores originales de los logos cuando el raton está posado encima
+ */
 .fa-facebook-square:hover{
   color:#3b5998;
 }
@@ -336,4 +378,57 @@ i.fa{
 }
 .fa-linkedin-square:hover{
   color:#0e76a8;
+}
+
+
+
+/**
+Efecto 3D
+Le aplicamos un efecto 3D al unico boton de nuestro index
+ */
+
+/* WebKit and Opera browsers */
+@-webkit-keyframes spinner {
+  from { -webkit-transform: rotateY(0deg);    }
+  to   { -webkit-transform: rotateY(-360deg); }
+}
+
+/* all other browsers */
+@keyframes spinner {
+  from {
+    -moz-transform: rotateY(0deg);
+    -ms-transform: rotateY(0deg);
+    transform: rotateY(0deg);
+  }
+  to {
+    -moz-transform: rotateY(-360deg);
+    -ms-transform: rotateY(-360deg);
+    transform: rotateY(-360deg);
+  }
+}
+
+
+#Efecto3DContainer{
+  background: rgba(0,0,0,0.5);
+}
+#Efecto3D{
+  webkit-animation-name: spinner;
+  -webkit-animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-duration: 6s;
+
+  animation-name: spinner;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-duration: 6s;
+
+  -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  -ms-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+}
+#Efecto3D:hover{
+  -webkit-animation-play-state: paused;
+  animation-play-state: paused;
+  background: rgba(0,0,0,0.5);
 }
