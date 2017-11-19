@@ -93,6 +93,9 @@ li.title {
 .links li a:hover, .terminos li a:hover, .navegacion-principal ul li a:hover {
   color: blue;
 }
+.navegacion-principal li{
+  margin: 0 10px;
+}
 
 .form-group {
   display: flex;
@@ -186,7 +189,7 @@ a:hover {
 }
 
 a:visited {
-  color: none;
+  color: unset;
 }
 
 /*// Definicion de todos los botones e input tipo submit*/
@@ -246,7 +249,6 @@ h3.title {
 
 
 .slider {
-  width: 700%;
   margin: auto;
   overflow: hidden;
   display: inline-block;
@@ -314,4 +316,24 @@ nav>ul{
 .logo:hover {
     transform: rotate(360deg);
     -webkit-transform: rotate(360deg);
+}
+.redes-sociales{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+i.fa{
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.fa-facebook-square:hover{
+  color:#3b5998;
+}
+.fa-twitter-square:hover{
+  color:#00aced;
+}
+.fa-linkedin-square:hover{
+  color:#0e76a8;
 }
