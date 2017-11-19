@@ -1,2 +1,3 @@
 <?php
-$errors;
+$errors = "test";
+?>
