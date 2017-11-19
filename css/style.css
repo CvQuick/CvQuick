@@ -25,7 +25,7 @@ Al header le damos toda una fila, dividimos sus elementos y le damos un gradient
 #SectionHeader {
   grid-column: 1 / span 12;
 
-  height: 100px;
+  height: 90px;
 
   background: #474747; /* For browsers that do not support gradients */
   /*background: -webkit-linear-gradient(black, darkgrey, white); !* For Safari 5.1 to 6.0 *!*/
@@ -109,10 +109,18 @@ li.title {
   width: 65%;
 }
 
-input {
+input{
   text-align: center;
   border-top: 0;
-  border-style: solid none solid solid
+  border-style: none none solid solid;
+  height: 30px;
+  margin: 5px;
+}
+textarea{
+  border-top: 0;
+  border-style: none none solid solid;
+  border-color: black;
+  border-width: 2px;
 }
 
 table {
@@ -162,11 +170,6 @@ fieldset {
 
 .add, .submit {
   width: 20%;
-}
-
-input {
-  height: 30px;
-  margin: 5px;
 }
 
 i {
