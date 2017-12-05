@@ -432,3 +432,14 @@ Le aplicamos un efecto 3D al unico boton de nuestro index
   animation-play-state: paused;
   background: rgba(0,0,0,0.5);
 }
+
+@media screen and (max-width: 600px) {
+    body{
+        /*
+        ¡CUIDADO! no entiende bien las media query desde el emulador de dispositivos, pero sí si damos menor tamaño
+        a las páginas
+        */
+        /*Esto es sólo una prueba, habría que borrarlo y añadir aquí el css para nuestra página completa*/
+        background-image: none;
+    }
+}
