@@ -114,11 +114,19 @@ cuando el raton está posado los enlaces se vuelven azules
 Establecemos el espacios entre todos los elementos formulario de nuestra página
  */
 .form-group {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+  /*display: flex;*/
+  /*align-items: center;*/
+  /*justify-content: space-between;*/
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
 }
 
+.form-group label{
+  grid-column: 1 / span 2;
+}
+.form-group input, .form-group textarea{
+  grid-column: 3 / span 6;
+}
 /*
 Establecemos los bordes de los inputs y centramos el contenido de los mismos
  */
@@ -189,8 +197,9 @@ fieldset {
   clear: both;
 }
 
-.add, .submit {
+input[type="button"], input[type="submit"], button {
   width: 20%;
+  font-size: 1em;
 }
 
 /*
@@ -440,6 +449,9 @@ Le aplicamos un efecto 3D al unico boton de nuestro index
         a las páginas
         */
         /*Esto es sólo una prueba, habría que borrarlo y añadir aquí el css para nuestra página completa*/
-        background-image: none;
+        display: inline;
     }
+  .subsection{
+    padding: 2%;
+  }
 }
