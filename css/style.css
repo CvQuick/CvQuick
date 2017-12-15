@@ -2,257 +2,279 @@
 Establecemos un estilo para que, sea cual sea el tamaño de la página, simpre nos ocupe toda la pantalla.
  */
 html {
-  height: 100%;
-  box-sizing: border-box;
+    height: 100%;
+    box-sizing: border-box;
 }
 
 *,
 *:before,
 *:after {
-  box-sizing: inherit;
+    box-sizing: inherit;
 }
+
 /*
 Dividimos la pagina en 12 columnas y establecemos una imagen de fondo
  */
 body {
-  position: relative;
-  margin: 0;
-  min-height: 100%;
-  display: grid;
-  grid-template-columns: repeat(12, 1fr);
-  background-image: url("../images/fondoForm.png");
+    position: relative;
+    margin: 0;
+    min-height: 100%;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    background-image: url("../images/fondoForm.png");
 }
 
 /*
 Al header le damos toda una fila y le damos un fondo gris
  */
 #SectionHeader {
-  grid-column: 1 / span 12;
+    grid-column: 1 / span 12;
 
-  height: 90px;
+    height: 90px;
 
-  background: #474747; /* For browsers that do not support gradients */
+    background: #474747; /* For browsers that do not support gradients */
 }
+
 /*
 Dividimos los elementos del header y le damos unos margenes laterales a los elementos.
  */
 header {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
 
-  display: flex;
-  align-items: flex-start;
-  justify-content: space-between;
-
-  padding: 0 2%;
+    padding: 0 2%;
 }
+
+.nav ul {
+    display: flex;
+}
+
 /*
 Al footer le damos toda una fila y le damos un gradiente de transparente a gris.
  */
 #SectionFooter {
-  margin-top: 50px;
-  justify-content: space-between;
+    margin-top: 50px;
+    justify-content: space-between;
 
-  grid-column-start: 1;
-  grid-column-end: 13;
+    grid-column-start: 1;
+    grid-column-end: 13;
 
-  background: #474747; /* For browsers that do not support gradients */
-  background: -webkit-linear-gradient(rgba(71, 71, 71, 0), #474747); /* For Safari 5.1 to 6.0 */
-  background: -o-linear-gradient(rgba(71, 71, 71, 0), #474747); /* For Opera 11.1 to 12.0 */
-  background: -moz-linear-gradient(rgba(71, 71, 71, 0), #474747); /* For Firefox 3.6 to 15 */
-  background: linear-gradient(rgba(71, 71, 71, 0), #474747); /* Standard syntax */
+    background: #474747; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(rgba(71, 71, 71, 0), #474747); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(rgba(71, 71, 71, 0), #474747); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(rgba(71, 71, 71, 0), #474747); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(rgba(71, 71, 71, 0), #474747); /* Standard syntax */
 }
+
 /*
 Dividimos los elementos del footer y le damos unos margenes laterales a los elementos.
  */
 Footer {
-  display: flex;
-  align-items: flex-end;
-  justify-content: space-between;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
 
-  padding: 0 2%;
+    padding: 0 2%;
 
 }
+
 /*
 Al footer le damos unas columnas centrales para que el contenido de nuestra página simpre esté centrado.
 Establecemos el color de sus elemntos en blanco
  */
 #SectionContainer {
-  grid-column: 3 / 11;
-  color: white;
+    grid-column: 3 / 11;
+    color: white;
 }
+
 /*
 Le damos el tamaño al logo
  */
 .logo {
-  max-width: 100px;
-  width: 90%;
+    max-width: 100px;
+    width: 90%;
 }
 
 li.title {
-  font-size: 2em;
-  list-style: none;
+    font-size: 2em;
+    list-style: none;
 }
+
 /*
 Los elementos del footer y el header le establecemos el mismo estilo: blanco por defecto, sin decoración a las listas y
 cuando el raton está posado los enlaces se vuelven azules
  */
 .links li a, .terminos li a, .navegacion-principal ul li a {
-  color: white;
+    color: white;
 }
 
 .links li, .terminos li, .navegacion-principal ul li {
-  list-style: none;
+    list-style: none;
 }
 
 .links li a:hover, .terminos li a:hover, .navegacion-principal ul li a:hover {
-  color: blue;
+    color: blue;
 }
-.navegacion-principal li{
-  margin: 0 10px;
+
+.navegacion-principal li {
+    margin: 0 10px;
 }
 
 /*
 Establecemos el espacios entre todos los elementos formulario de nuestra página
  */
 .form-group {
-  /*display: flex;*/
-  /*align-items: center;*/
-  /*justify-content: space-between;*/
-  display: grid;
-  grid-template-columns: repeat(8, 1fr);
+    /*display: flex;*/
+    /*align-items: center;*/
+    /*justify-content: space-between;*/
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
 }
 
-.form-group label{
-  grid-column: 1 / span 2;
+.form-group label {
+    grid-column: 1 / span 2;
 }
-.form-group input, .form-group textarea{
-  grid-column: 3 / span 6;
+
+.form-group input, .form-group textarea {
+    grid-column: 3 / span 6;
 }
+
 /*
 Establecemos los bordes de los inputs y centramos el contenido de los mismos
  */
-input{
-  text-align: center;
-  border-top: 0;
-  border-style: none none solid solid;
-  height: 30px;
-  margin: 5px;
+input {
+    text-align: center;
+    border-top: 0;
+    border-style: none none solid solid;
+    height: 30px;
+    margin: 5px;
 }
+
 /*
 Establecemos los bordes de los textarea
  */
-textarea{
-  border-style: none none solid solid;
-  border-color: black;
-  border-width: 2px;
-  border-top: 0;
+textarea {
+    border-style: none none solid solid;
+    border-color: black;
+    border-width: 2px;
+    border-top: 0;
 }
 
 /*
 Establecemos que los bordes de las tablas, así como que su tamaño sea el 100% de su contendor y que sus elementos estén centrados
  */
 table {
-  width: 100%;
-  text-align: center;
-  border-collapse: collapse;
+    width: 100%;
+    text-align: center;
+    border-collapse: collapse;
 }
+
 /*
 El titulo de la tabla tendrá un espacio inferior y unicamente borde inferior
  */
 .titulo-tabla {
-  padding-bottom: 1em;
-  border-bottom: 5px solid black;;
-  border-collapse: collapse;
+    padding-bottom: 1em;
+    border-bottom: 5px solid black;;
+    border-collapse: collapse;
 }
 
 #Contacto {
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
 }
 
 .subsection {
-  margin-top: 1em;
-  color: white;
+    margin-top: 1em;
+    color: white;
 }
 
 .subsection-contacto {
-  width: 45%;
+    width: 45%;
 }
 
 fieldset {
-  height: 100%;
+    height: 100%;
 }
 
 #FormularioContacto {
-  height: 100%;
+    height: 100%;
 }
 
 .derecha {
-  float: right;
-  clear: both;
+    float: right;
+    clear: both;
 }
 
 .izquierda {
-  float: left;
-  clear: both;
+    float: left;
+    clear: both;
 }
 
 input[type="button"], input[type="submit"], button {
-  width: 20%;
-  font-size: 1em;
+    width: 20%;
+    font-size: 1em;
+}
+
+input[type="text"], input[type=email], input[type="date"], textarea {
+    border-radius: 25px;
 }
 
 /*
 Todos los iconos iran centrados con el texto. Por defecto, los iconos se posicionan un poco en alto con respecto a sus elementos hermanos.
  */
 i {
-  vertical-align: middle;
+    vertical-align: middle;
 }
+
 /*
 Establecemos el color del texto de los enlaces en blanco y sin subrayado para conseguir una mayor seriedad en la página.
  */
 a {
-  color: white;
-  text-decoration: none;
+    color: white;
+    text-decoration: none;
 }
+
 /*
 Para diferenciar los enlaces de lo que no son enlaces, cuando el raton se posa por encima el enlace se vuelve azul
  */
 a:hover {
-  color: blue;
+    color: blue;
 }
+
 /*
 Cuando el enlace ha sido visitado, no establecemos ningun color.
  */
 a:visited {
-  color: unset;
+    color: unset;
 }
 
 /*// Definicion de todos los botones e input tipo submit*/
 button, input[type=submit] {
-  background: #3498db;
-  background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
-  background-image: -moz-linear-gradient(top, #3498db, #2980b9);
-  background-image: -ms-linear-gradient(top, #3498db, #2980b9);
-  background-image: -o-linear-gradient(top, #3498db, #2980b9);
-  background-image: linear-gradient(to bottom, #3498db, #2980b9);
-  -webkit-border-radius: 28;
-  -moz-border-radius: 28;
-  border-radius: 28px;
-  color: #ffffff;
-  padding: 10px 10px 10px 10px;
-  text-decoration: none;
-  margin-top: 1em;
+    background: #3498db;
+    background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+    background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+    background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+    background-image: -o-linear-gradient(top, #3498db, #2980b9);
+    background-image: linear-gradient(to bottom, #3498db, #2980b9);
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    color: #ffffff;
+    padding: 10px 10px 10px 10px;
+    text-decoration: none;
+    margin-top: 1em;
 }
 
 button:hover, input[type=submit]:hover {
-  background: #3cb0fd;
-  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
-  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
-  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
-  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
-  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
-  text-decoration: none;
+    background: #3cb0fd;
+    background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+    text-decoration: none;
 }
 
 /*
@@ -260,92 +282,93 @@ Establecemos el tipo de letra especial de la página.
 Nuestra elegida el Raleway, siendo aplicada a los parrafos, label, celdas de tabla y enlaces.
  */
 p, label, td, a {
-  font-family: Raleway;
-  font-size: 14px;
-  font-style: normal;
-  font-variant: normal;
-  font-weight: 400;
-  line-height: 20px;
+    font-family: Raleway;
+    font-size: 14px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    line-height: 20px;
 }
 
 .subsection, #Contacto {
-  border: solid black;
-  background-color: rgba(237, 227, 255, 0.3);
-  padding: 2em;
-  margin: 2em
+    border: solid black;
+    background-color: rgba(237, 227, 255, 0.3);
+    padding: 2em;
+    margin: 2em;
+    border-radius: 25px;
 }
 
 h3.title {
-  text-align: center;
+    text-align: center;
 }
 
 .submit {
-  margin-right: 3em;
+    margin-right: 3em;
 }
 
 .reserved {
-  justify-content: center;
+    justify-content: center;
 }
 
-
 .slider {
-  margin: auto;
-  overflow: hidden;
-  display: inline-block;
-  grid-column-start: 2;
+    margin: auto;
+    overflow: hidden;
+    display: inline-block;
+    grid-column-start: 2;
 }
 
 .slider ul {
-  display: flex;
-  padding: 0;
-  width: 400%;
+    display: flex;
+    padding: 0;
+    width: 400%;
 
-  animation: cambio 20s infinite;
+    animation: cambio 20s infinite;
 }
 
 .slider li {
-  width: 100%;
-  list-style: none;
+    width: 100%;
+    list-style: none;
 }
 
 .slider img {
-  width: 100%;
-  border: solid black;
+    width: 100%;
+    border: solid black;
 
 }
-nav>ul{
-  margin-top: 4em;
-  display: flex;
-}
+
+/*nav>ul{*/
+/*margin-top: 4em;*/
+/*display: flex;*/
+/*}*/
 
 @keyframes cambio {
-  0% {
-    margin-left: 0;
-  }
-  20% {
-    margin-left: 0;
-  }
+    0% {
+        margin-left: 0;
+    }
+    20% {
+        margin-left: 0;
+    }
 
-  25% {
-    margin-left: -100%;
-  }
-  45% {
-    margin-left: -100%;
-  }
+    25% {
+        margin-left: -100%;
+    }
+    45% {
+        margin-left: -100%;
+    }
 
-  50% {
-    margin-left: -200%;
-  }
-  70% {
-    margin-left: -200%;
-  }
+    50% {
+        margin-left: -200%;
+    }
+    70% {
+        margin-left: -200%;
+    }
 
-  75% {
-    margin-left: -300%;
-  }
-  100% {
-    margin-left: -300%;
-  }
+    75% {
+        margin-left: -300%;
+    }
+    100% {
+        margin-left: -300%;
+    }
 }
 
 .logo {
@@ -353,6 +376,7 @@ nav>ul{
     transition-duration: 0.8s;
     transition-property: transform;
 }
+
 .logo:hover {
     transform: rotate(360deg);
     -webkit-transform: rotate(360deg);
@@ -364,32 +388,34 @@ REDES SOCIALES
 /*
 Establecemos el espacio entre los elementos de redes sociales del footer
  */
-.redes-sociales{
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+.redes-sociales {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
+
 /*
 Establecemos el tamaño y el margen de los logos
  */
-i.fa{
-  font-size: 36px;
-  margin-bottom: 10px;
+i.fa {
+    font-size: 36px;
+    margin-bottom: 10px;
 }
+
 /*
 Y, por ultimo, establecemos los colores originales de los logos cuando el raton está posado encima
  */
-.fa-facebook-square:hover{
-  color:#3b5998;
-}
-.fa-twitter-square:hover{
-  color:#00aced;
-}
-.fa-linkedin-square:hover{
-  color:#0e76a8;
+.fa-facebook-square:hover {
+    color: #3b5998;
 }
 
+.fa-twitter-square:hover {
+    color: #00aced;
+}
 
+.fa-linkedin-square:hover {
+    color: #0e76a8;
+}
 
 /**
 Efecto 3D
@@ -398,52 +424,57 @@ Le aplicamos un efecto 3D al unico boton de nuestro index
 
 /* WebKit and Opera browsers */
 @-webkit-keyframes spinner {
-  from { -webkit-transform: rotateY(0deg);    }
-  to   { -webkit-transform: rotateY(-360deg); }
+    from {
+        -webkit-transform: rotateY(0deg);
+    }
+    to {
+        -webkit-transform: rotateY(-360deg);
+    }
 }
 
 /* all other browsers */
 @keyframes spinner {
-  from {
-    -moz-transform: rotateY(0deg);
-    -ms-transform: rotateY(0deg);
-    transform: rotateY(0deg);
-  }
-  to {
-    -moz-transform: rotateY(-360deg);
-    -ms-transform: rotateY(-360deg);
-    transform: rotateY(-360deg);
-  }
+    from {
+        -moz-transform: rotateY(0deg);
+        -ms-transform: rotateY(0deg);
+        transform: rotateY(0deg);
+    }
+    to {
+        -moz-transform: rotateY(-360deg);
+        -ms-transform: rotateY(-360deg);
+        transform: rotateY(-360deg);
+    }
 }
 
-
-#Efecto3DContainer{
-  background: rgba(0,0,0,0.5);
-}
-#Efecto3D{
-  webkit-animation-name: spinner;
-  -webkit-animation-timing-function: linear;
-  -webkit-animation-iteration-count: infinite;
-  -webkit-animation-duration: 6s;
-
-  animation-name: spinner;
-  animation-timing-function: linear;
-  animation-iteration-count: infinite;
-  animation-duration: 6s;
-
-  -webkit-transform-style: preserve-3d;
-  -moz-transform-style: preserve-3d;
-  -ms-transform-style: preserve-3d;
-  transform-style: preserve-3d;
-}
-#Efecto3D:hover{
-  -webkit-animation-play-state: paused;
-  animation-play-state: paused;
-  background: rgba(0,0,0,0.5);
+#Efecto3DContainer {
+    background: rgba(0, 0, 0, 0.5);
 }
 
-@media screen and (max-width: 600px) {
-    body{
+#Efecto3D {
+    webkit-animation-name: spinner;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-duration: 6s;
+
+    animation-name: spinner;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-duration: 6s;
+
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    -ms-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+}
+
+#Efecto3D:hover {
+    -webkit-animation-play-state: paused;
+    animation-play-state: paused;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+@media screen and (max-width: 750px) {
+    body {
         /*
         ¡CUIDADO! no entiende bien las media query desde el emulador de dispositivos, pero sí si damos menor tamaño
         a las páginas
@@ -451,7 +482,11 @@ Le aplicamos un efecto 3D al unico boton de nuestro index
         /*Esto es sólo una prueba, habría que borrarlo y añadir aquí el css para nuestra página completa*/
         display: inline;
     }
-  .subsection{
-    padding: 2%;
-  }
+
+    .subsection {
+        padding: 2%;
+    }
+    .form-group{
+        margin-bottom: 5%;
+    }
 }
