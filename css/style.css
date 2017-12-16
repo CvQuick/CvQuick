@@ -195,6 +195,12 @@ El titulo de la tabla tendrá un espacio inferior y unicamente borde inferior
     width: 45%;
 }
 
+.tabla-add{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+}
+
 fieldset {
     height: 100%;
 }
