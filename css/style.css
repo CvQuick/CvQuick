@@ -112,7 +112,7 @@ cuando el raton está posado los enlaces se vuelven azules
 
 :hover.link{
   color: blue;
-} 
+}
 a:visited { ... }
 
 .links li, .terminos li, .navegacion-principal ul li {
@@ -204,6 +204,12 @@ El titulo de la tabla tendrá un espacio inferior y unicamente borde inferior
     display: flex;
     flex-direction: row;
     align-content: center;
+}
+
+.radio{
+
+  display: flex;
+  flex-direction: row;
 }
 
 fieldset {
