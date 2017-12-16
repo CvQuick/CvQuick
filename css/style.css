@@ -24,6 +24,7 @@ body {
     background-image: url("../images/fondoForm.png");
 }
 
+
 /*
 Al header le damos toda una fila y le damos un fondo gris
  */
@@ -251,6 +252,7 @@ a:visited {
 }
 
 /*// Definicion de todos los botones e input tipo submit*/
+
 button, input[type=submit] {
     background: #3498db;
     background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
@@ -393,7 +395,53 @@ Establecemos el espacio entre los elementos de redes sociales del footer
     justify-content: space-between;
     align-items: center;
 }
+/* Reiniciando por defecto  */
+.social-media-icons {
+    list-style: none;
+    margin 0;
+    padding: 0;
+}
 
+/* Muestra los iconos  en linea*/
+.social-media-icons li {
+    display: inline-block;
+}
+
+.social-media-icons a {
+    background-image: url(../images/social-icons.png);
+    background-image: url(../images/social-icons.svg), none;
+    background-repeat: no-repeat;
+    display: block;
+    height: 58px;
+    transition: all 350ms ease-out;
+    -webkit-transition: all 350ms ease-out;
+    -o-transition: all 350ms ease-out;
+    width: 50px;
+}
+
+.social-media-icons a:hover {
+    transform: scaleY(-1);
+
+
+    filter: alpha(opacity=100);
+    opacity: 0.8;
+}
+
+/* Move the background to the right position for each social network */
+.twitter {
+    background-position: 0 0; /* Obviously, this is obsolete to use here, but it illustrates the fact the twitter image is the first image */
+}
+
+.facebook {
+    background-position: -53px 0;
+
+}
+
+
+.google {
+    background-position: -106px -60px;
+    background-blend-mode: color;
+}
 /*
 Establecemos el tamaño y el margen de los logos
  */
@@ -402,20 +450,6 @@ i.fa {
     margin-bottom: 10px;
 }
 
-/*
-Y, por ultimo, establecemos los colores originales de los logos cuando el raton está posado encima
- */
-.fa-facebook-square:hover {
-    color: #3b5998;
-}
-
-.fa-twitter-square:hover {
-    color: #00aced;
-}
-
-.fa-linkedin-square:hover {
-    color: #0e76a8;
-}
 
 /**
 Efecto 3D
@@ -489,4 +523,5 @@ Le aplicamos un efecto 3D al unico boton de nuestro index
     .form-group{
         margin-bottom: 5%;
     }
+
 }
