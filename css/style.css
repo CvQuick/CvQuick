@@ -110,6 +110,11 @@ cuando el raton está posado los enlaces se vuelven azules
     color: white;
 }
 
+:hover.link{
+  color: blue;
+} 
+a:visited { ... }
+
 .links li, .terminos li, .navegacion-principal ul li {
     list-style: none;
 }
